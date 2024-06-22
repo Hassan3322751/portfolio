@@ -1,0 +1,27 @@
+*{
+    background-color: #1A2430;
+    color: #FFFFFF;
+    padding: 5px;
+}
+.red{
+    color: #FF4137;
+}
+.border{
+    border: 1px solid red;
+}
+
+/* Skew Image Style */
+.imgContainer:before{
+    position: relative;
+    content: '';
+    width: 500px;
+    height: 300px;
+    border: 1px solid white;
+}
+.skewImg:after{
+    position: relative;
+    content: '';
+    width: 500px;
+    height: 300px;
+    border: 1px solid white;
+}

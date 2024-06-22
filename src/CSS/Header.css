@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brand{
+    width: 308px;
+    height: 67px;
+}
+.logo{
+    width: 308px;
+    height: 67px;
+}
+ul{
+    /* width: 500px; */
+}
+ul li{
+    list-style: none;
+    display: inline-flex;
+    margin: 0px 10px;
+    height: 18px;
+    font-size: 15.2px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu .search{
+    width: 22.84px;
+    height: 23.31px;
+}
+
+.menu .hamburg{
+    width: 24.31px;
+    height: 15.89px;
+}
