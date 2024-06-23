@@ -1,0 +1,46 @@
+.tab-container {
+    box-sizing: border-box;
+    margin: 40px auto;
+  }
+  
+  .active{
+    background: rgba(255, 65, 55, 1);
+    outline: 1px solid rgb(29, 28, 28);
+  }
+
+  .tab-buttons {
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    font-size: 16px;
+    width: 770px;
+    height: 70px;
+    border-radius: 35px;
+  }
+
+  .tab-buttons button{
+    border: 0px solid black;
+    padding: 0px 20px;
+  }
+
+  .tab-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .tab-content img {
+    margin: 0px 5px;
+  }
+  
+  @media (max-width: 600px) {
+    .tab-container {
+      max-width: 400px;
+    }
+    .tab-buttons img {
+      width: 30px;
+      height: 30px;
+    }
+  }

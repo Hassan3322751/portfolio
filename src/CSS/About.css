@@ -1,0 +1,41 @@
+.aboutList{
+    display: flex;
+}
+.aboutList ul{
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 0px;
+}
+ .aboutList ul li{
+    list-style: none;
+    font-size: 2rem;
+    margin-right: 40px;
+ }
+ .aboutList ul li::before{
+    content: '';
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    width: 30px;
+    height: 30px;
+    background-image: url('../Images/redTick.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 10px;
+ }
+ .aboutList ul li:nth-child(5):before{
+    content: '';
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    width: 30px;
+    height: 30px;
+    background-image: url('../Images/phoneIcon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top: 30px;
+ }

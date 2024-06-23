@@ -1,7 +1,14 @@
 *{
     background-color: #1A2430;
     color: #FFFFFF;
-    padding: 5px;
+}
+.mtb0{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.mlr0{
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .red{
     color: #FF4137;
@@ -11,17 +18,38 @@
 }
 
 /* Skew Image Style */
-.imgContainer:before{
+ .skewContainer{
+    display: flex;
+    justify-content: center;
     position: relative;
-    content: '';
-    width: 500px;
-    height: 300px;
-    border: 1px solid white;
+    z-index: 0;
+    height: fit-content;
+    width: 40vw;
 }
-.skewImg:after{
-    position: relative;
-    content: '';
-    width: 500px;
-    height: 300px;
+.skew{
+    position: absolute;
+    top: -30px;
+    left: 65px;
     border: 1px solid white;
+    width: 323px;
+    height: 181px;
+    background: transparent;
+    transform: skewX(-20deg);
+}
+.skewImg{
+    width: max-content;
+    height: 260px;
+    transform: skewX(0deg);
+    background: none;
+    z-index: 0;
+}
+.skew1{
+    position: absolute;
+    bottom: -26px;
+    right: 70px;
+    width: 323px;
+    height: 181px;
+    background-color: #364854;
+    transform: skewX(-20deg);
+    z-index: -1;
 }

@@ -1,0 +1,97 @@
+.section1{
+    display: flex;
+    /* margin-left: 74px;
+    margin-right: 82px; */
+    margin-top: 170px;
+}
+.btnGroup .btn1,
+.btnGroup .btn2{
+    margin-top: 50px;
+    width: 137px;
+    height: 43px;
+    border-radius: 60px;
+}
+.btnGroup .btn1{
+    border: none;
+    background: rgba(255, 65, 55, 1);
+}
+.btnGroup .btn2{
+    border: 1px solid white;
+    margin-left: 10px;
+}
+
+/* Services cards */
+.services{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.services .cus_card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 40px;
+}
+.services .cus_card .img,
+.services .cus_card .cardHeading,
+.services .cus_card .cardText{
+    background: transparent;
+}
+.services .cus_card .img{
+    width: 50px;
+    height: 50px;
+}
+.services .cus_card .cardHeading{
+    margin: 15px 0px;
+    font-size: 25px;
+}
+.services .cus_card .cardText{
+    /* margin: 15px 0px; */
+    font-size: 17px;
+}
+/* .services .card:hover{
+    background: rgba(255, 65, 55, 1);
+}
+.services .card:hover .cardHeading{
+    color: white;
+} */
+.services .cus_card:nth-child(4){
+    background: rgba(255, 65, 55, 1);
+}
+.services .cus_card:nth-child(4) .cardHeading{
+    color: white;
+}
+
+/*  */
+.section1 .list ul li{
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+/* Core Techs Section */
+.coreTechs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98vw;
+    padding-right: 100px;
+    box-sizing: border-box;
+}
+.coreTechs .data, .coreTechs .logoImg{
+    display: inline-block;
+}
+.coreTechs .data{
+    width: 50vw;
+}
+.coreTechs img{
+    width: 262px;
+}
+
+/* Services Tabs */
+.servicesTabs{
+    float: left;
+}

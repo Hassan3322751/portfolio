@@ -14,7 +14,7 @@
 ul{
     /* width: 500px; */
 }
-ul li{
+.header ul li{
     list-style: none;
     display: inline-flex;
     margin: 0px 10px;

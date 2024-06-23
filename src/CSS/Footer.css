@@ -1,0 +1,33 @@
+.footer{
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.footerCard1{
+    border: 1px solid white;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 345px;
+    height: 290px;
+    font-size: 15px;
+}
+.footerCard1 img{
+    margin-bottom: 10px;
+    width: 308px;
+    height: 68px;
+}
+.footerCard2{
+    width: 65vw;
+    display: inline;
+    border: 1px solid red;
+}
+.footerSection1 div{
+    display: inline-flex;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+.footerHeading{
+    font-size: 21px;
+}
