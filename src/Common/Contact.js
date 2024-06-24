@@ -5,6 +5,7 @@ import { Button, Col, Form, Row } from 'react-bootstrap';
 import '../CSS/Main.css'
 import '../CSS/Common.css'
 import '../CSS/Contact.css'
+import '../CSS/Responsive.css'
 
 const Contact = () => {
   return (
@@ -12,12 +13,12 @@ const Contact = () => {
         <div className="section1">
                 <div className="sectionData">
 
-                    <h1 style={{fontSize: '58px', width: '35vw', marginTop: '0px'}} className="m-0">
+                    <h1 style={{fontSize: '5.8rem', width: '35vw', marginTop: '0px'}} className="m-0">
                         <span className="red">Contact </span>Us
                     </h1>
-                    <span style={{fontSize: '32px'}}>Our work performs as it sees</span>
+                    <span style={{fontSize: '3.2rem'}}>Our work performs as it sees</span>
                     <br/>
-                    <span style={{fontSize: '18px', marginTop: '46px'}}>
+                    <span style={{fontSize: '1.8rem', marginTop: '46px'}}>
                     We create beautiful, interesting, and responsive web and mobile applications
                     </span>
 
@@ -58,11 +59,11 @@ const Contact = () => {
             <div className="section1 mt-5">
                 <div className="sectionData">
 
-                    <h1 style={{fontSize: '58px', marginTop: '0px'}} className="m-0">
+                    <h1 style={{fontSize: '5.8rem', marginTop: '0px'}} className="m-0">
                     Rescue Your <span className="red">Company’s Growth!</span>
                     </h1>
 
-                    <span style={{fontSize: '18px', marginTop: '46px'}}>
+                    <span style={{fontSize: '1.8rem', marginTop: '46px'}}>
                         Let us know about your business plans on an introductory call, and we’ll lead the matching process.
                     </span>
 

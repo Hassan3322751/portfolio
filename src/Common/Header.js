@@ -2,6 +2,7 @@ import React from 'react';
 import Images from '../Images/images';
 import '../CSS/Common.css';
 import '../CSS/Header.css';
+import '../CSS/Responsive.css'
 import { Link } from 'react-router-dom';
 
 const Header = () => {

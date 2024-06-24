@@ -2,9 +2,9 @@ import React from "react";
 import SkewImg from "./Common/SkewImg";
 import images from "./Images/images";
 import Tab from "../src/Common/Tabs"
-import Footer from "./Common/Footer";
 import '../src/CSS/Main.css'
 import '../src/CSS/Common.css'
+import '../src/CSS/Responsive.css'
 
 
 const MainPage = ()=>{
@@ -42,14 +42,14 @@ const MainPage = ()=>{
         <React.Fragment>
             <div className="section1">
                 <div className="sectionData">
-                    <span style={{fontSize: '32px'}}>We Design and improve</span>
+                    <span style={{fontSize: '3.2rem'}}>We Design and improve</span>
 
-                    <h1 style={{fontSize: '58px', width: '35vw', marginTop: '0px'}} className="m-0">
+                    <h1 style={{fontSize: '5.8rem', width: '40vw', marginTop: '0px'}} className="m-0">
                         Smart <span className="red">Web Solution </span>and  
                         <span className="red"> Build</span> Them
                     </h1>
 
-                    <span style={{fontSize: '18px', marginTop: '46px'}}>
+                    <span style={{fontSize: '1.8rem', marginTop: '46px'}}>
                         Our site design, development, and marketing services are top-notch.
                     </span>
 
@@ -66,11 +66,11 @@ const MainPage = ()=>{
 
             <div className="section1">
                 <div className="sectionData">
-                    <h1 style={{fontSize: '58px', width: '35vw', marginTop: '0px'}} className="m-0">
+                    <h1 style={{fontSize: '5.8rem', width: '40vw', marginTop: '0px'}} className="m-0">
                         <span className="red">Digitalize </span>your business
                     </h1>
 
-                    <span style={{fontSize: '18px', marginTop: '46px', width: '35vw', display: 'flex'}}>
+                    <span style={{fontSize: '1.8rem', width: '40vw', display: 'flex'}}>
                         With agility, devotion, and high-quality IT services, we support businesses by offering custom and specialized business solutions.
                     </span>
 
@@ -87,15 +87,15 @@ const MainPage = ()=>{
 
             <div className="section1">
                 <div className="sectionData">
-                    <span style={{fontSize: '32px'}}>Our Services</span>
+                    <span style={{fontSize: '3.2rem'}}>Our Services</span>
 
-                    <h1 style={{fontSize: '58px', width: '35vw', marginTop: '0px'}} className="m-0">
+                    <h1 style={{fontSize: '5.8rem', width: '40vw', marginTop: '0px'}} className="m-0">
                         <span className="red">Devops </span>Technology
                         for Your  
                         <span className="red"> Successful</span> Business
                     </h1>
 
-                    <span style={{fontSize: '18px', marginTop: '46px'}}>
+                    <span style={{fontSize: '1.8rem', marginTop: '46px'}}>
                         Our site design, development, and marketing services are top-notch.
                     </span>
                 </div>
@@ -137,24 +137,24 @@ const MainPage = ()=>{
             </div>
 
             <div className="sectionData" style={{marginTop:'50px'}}>
-                <h1 style={{fontSize: '58px', width: '35vw', marginTop: '0px'}} className="m-0">
+                <h1 style={{fontSize: '5.8rem', width: '40vw', marginTop: '0px'}} className="m-0">
                     Expertise
                 </h1>
 
-                <span style={{fontSize: '18px', marginTop: '46px'}}>
+                <span style={{fontSize: '1.8rem', marginTop: '46px'}}>
                     We use IT expertise to develop cutting-edge software solutions.
                 </span>
             </div>
 
             <div className="section1">
                 <div className="sectionData">
-                    <span style={{fontSize: '32px'}}>Design & Development</span>
+                    <span style={{fontSize: '3.2rem'}}>Design & Development</span>
 
-                    <h1 style={{fontSize: '58px', width: '35vw', marginTop: '0px'}} className="m-0">
+                    <h1 style={{fontSize: '5.8rem', width: '40vw', marginTop: '0px'}} className="m-0">
                         Custom<span className="red"> App </span>Solutions
                     </h1>
 
-                    <span style={{fontSize: '18px', marginTop: '46px'}}>
+                    <span style={{fontSize: '1.8rem', marginTop: '46px'}}>
                     We provide high-fidelity web software solutions that are tailored to your
                     particular business processes. Using the most up-to-date SDLC tools and
                     cross-platform technology, we develop, modernize, optimize, and grow your
@@ -185,13 +185,13 @@ const MainPage = ()=>{
 
             <div className="section1">
                 <div className="sectionData">
-                    <span style={{fontSize: '32px'}}>Web Design & Development</span>
+                    <span style={{fontSize: '3.2rem'}}>Web Design & Development</span>
 
-                    <h1 style={{fontSize: '58px', width: '35vw', marginTop: '0px'}} className="m-0">
+                    <h1 style={{fontSize: '5.8rem', width: '40vw', marginTop: '0px'}} className="m-0">
                         Custom<span className="red"> Website </span>Solutions
                     </h1>
 
-                    <span style={{fontSize: '18px', marginTop: '46px'}}>
+                    <span style={{fontSize: '1.8rem', marginTop: '46px'}}>
                     We provide high-fidelity web software solutions that are tailored to your
                     particular business processes. Using the most up-to-date SDLC tools and
                     cross-platform technology, we develop, modernize, optimize, and grow your
@@ -223,10 +223,10 @@ const MainPage = ()=>{
                 <div className="sectionData">
                     <div className="coreTechs">
                         <div className="data">
-                            <h1 style={{fontSize: '58px', width: '35vw', marginTop: '0px'}} className="m-0">
+                            <h1 style={{fontSize: '5.8rem', width: '40vw', marginTop: '0px'}} className="m-0">
                                 Custom<span className="red"> Website </span>Solutions
                             </h1>
-                            <span style={{fontSize: '18px', marginTop: '46px'}}>
+                            <span style={{fontSize: '1.8rem', marginTop: '46px'}}>
                                 SumizanWebs uses a variety of contemporary technologies
                                 for efficient, scalable, and long-lasting customized
                                 software development.
@@ -243,16 +243,16 @@ const MainPage = ()=>{
             </div>
 
             <div className="sectionData">
-                <h1 style={{fontSize: '58px', width: '43vw', marginTop: '0px'}} className="m-0">
+                <h1 style={{fontSize: '5.8rem', width: '43vw', marginTop: '0px'}} className="m-0">
                     The<span className="red"> Ideal Engagement Model </span>Should Be
                     <span className="red"> Chosen</span>
                 </h1>
-                <span style={{fontSize: '18px', marginTop: '46px'}}>
+                <span style={{fontSize: '1.8rem', marginTop: '46px'}}>
                     Based on the project needs and your company specifications
                 </span>
 
                 <div className="services">
-                    <div className="cus_card" style={{width: '608px', height: '448px', padding: '40px'}}>
+                    <div className="cus_card" style={{padding: '40px'}}>
                         <img src={'../Images/tickSearch.png'} className="img" style={{width: '123px', height: '123px'}} />
                         <span className="cardHeading red">Web Development</span>
                         <span className="cardText">
@@ -262,7 +262,7 @@ const MainPage = ()=>{
                             <button className="btn1" style={{marginTop: '40px'}}>More Details</button>
                         </div>
                     </div>
-                    <div className="cus_card" style={{width: '608px', height: '448px', padding: '40px'}}>
+                    <div className="cus_card" style={{padding: '40px'}}>
                         <img src={'../Images/coinsBag.png'} className="img" style={{width: '123px', height: '123px'}} />
                         <span className="cardHeading red">UX/UI Design</span>
                         <span className="cardText">

@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import '../CSS/Tabs.css';
+import '../CSS/Responsive.css'
+import LazyLoad from 'react-lazy-load';
 
 const Tab = ( {tabs} ) => {
     const {constIdea, tabsData} = tabs;
@@ -29,7 +31,9 @@ const Tab = ( {tabs} ) => {
         
         <div className="tab-content">
             {tabsData[activeTab].images.map((image, index) => (
-            <img key={index} src={image} alt={tabsData[activeTab].tabTitle} style={{width: `${tabsData[activeTab].width}`}}/>
+              <LazyLoad>
+                <img key={index} src={image} alt={tabsData[activeTab].tabTitle} style={{width: `${tabsData[activeTab].width}`}}/>
+              </LazyLoad>
             ))}
       </div>
       </div>

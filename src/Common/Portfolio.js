@@ -2,9 +2,11 @@ import React from 'react'
 import images from '../Images/images';
 import SkewImg from './SkewImg';
 import Tab from './Tabs';
+import LazyLoad from 'react-lazy-load';
 import '../CSS/Main.css'
 import '../CSS/Common.css'
 import '../CSS/Portfolio.css'
+import '../CSS/Responsive.css'
 
 const Portfolio = () => {
     const tabsData = [
@@ -42,11 +44,11 @@ const Portfolio = () => {
          <div className="section1">
                 <div className="sectionData">
 
-                    <h1 style={{fontSize: '58px', width: '35vw'}}>
+                    <h1 style={{fontSize: '5.8rem', width: '35vw'}}>
                         Portfolio
                     </h1>
-                    <span style={{fontSize: '25px'}} className='d-flex mt-3 mb-1'>Our work performs as it sees</span>
-                    <span style={{fontSize: '15px'}}>
+                    <span style={{fontSize: '2.5rem'}} className='d-flex mt-3 mb-1'>Our work performs as it sees</span>
+                    <span style={{fontSize: '1.5rem'}}>
                     We create beautiful, interesting, and responsive web and mobile applications
                     </span>
 
@@ -72,7 +74,7 @@ const constIdea = () => {
     <React.Fragment>
         <div className="section1 porfoIdeasSection">
             <div className="sectionData">
-                <span style={{fontSize: '25px'}} className='mt-3 mb-1'>
+                <span style={{fontSize: '2.5rem'}} className='mt-3 mb-1'>
                     We <span className='red'>Construct</span> Ideas
                 </span>
                 <div className="btnGroup">
@@ -81,7 +83,9 @@ const constIdea = () => {
             </div>
 
             <div>
+              <LazyLoad>
                 <img src='../Images/3bulbs.png' />
+              </LazyLoad>
             </div>
         </div>
     </React.Fragment>

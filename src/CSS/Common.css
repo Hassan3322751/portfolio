@@ -1,6 +1,16 @@
 *{
     background-color: #1A2430;
     color: #FFFFFF;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    /* font-size: 62.5%; */
+    font-size: 51.5%;
+}
+body{
+    margin: 0px 10px;
 }
 .mtb0{
     margin-top: 0px;
@@ -18,7 +28,7 @@
 }
 
 /* Skew Image Style */
- .skewContainer{
+ /* .skewContainer{
     display: flex;
     justify-content: center;
     position: relative;
@@ -51,4 +61,95 @@
     background-color: #364854;
     transform: skewX(-20deg);
     z-index: -1;
-}
+} */
+
+
+.skewContainer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+    height: fit-content;
+  }
+  
+  .skew {
+    position: absolute;
+    border: 1px solid white;
+    top: -3.0rem;
+    left: 4.0rem;
+    width: 32.3rem;
+    height: 18.1rem;
+    /* top: -30px;
+    left: 40px;
+    width: 323px;
+    height: 181px; */
+    background: transparent;
+    transform: skewX(-20deg);
+  }
+  
+  .skewImg {
+    width: 50rem;
+    /* width: 100%; */
+    /* height: 260px; */
+    transform: skewX(0deg);
+    background: none;
+    z-index: 0;
+  }
+  
+  .skew1 {
+    position: absolute;
+    bottom: -2.6rem;
+    right: 4.0rem;
+    width: 32.3rem;
+    height: 18.1rem;
+    /* bottom: -26px;
+    right: 40px;
+    width: 323px;
+    height: 181px; */
+    background-color: #364854;
+    transform: skewX(-20deg);
+    z-index: -1;
+  }
+
+  
+  /* @media (max-width: 1200px) {
+    .skew {
+      width: 250px;
+      height: 140px;
+    }
+    .skewImg {
+      height: 200px;
+    }
+    .skew1 {
+      width: 250px;
+      height: 140px;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .skew {
+      width: 180px;
+      height: 100px;
+    }
+    .skewImg {
+      height: 150px;
+    }
+    .skew1 {
+      width: 180px;
+      height: 100px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .skew {
+      width: 120px;
+      height: 70px;
+    }
+    .skewImg {
+      height: 100px;
+    }
+    .skew1 {
+      width: 120px;
+      height: 70px;
+    }
+  } */

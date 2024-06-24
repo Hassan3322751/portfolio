@@ -13,9 +13,9 @@
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
-    font-size: 16px;
-    width: 770px;
-    height: 70px;
+    font-size: 1.6rem;
+    width: 77.0rem;
+    height: 7.0rem;
     border-radius: 35px;
   }
 
@@ -36,10 +36,10 @@
   
   @media (max-width: 600px) {
     .tab-container {
-      max-width: 400px;
+      max-width: 40.0rem;
     }
     .tab-buttons img {
-      width: 30px;
-      height: 30px;
+      width: 3.0rem;
+      height: 3.0rem;
     }
   }

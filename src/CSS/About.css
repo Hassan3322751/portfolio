@@ -13,6 +13,9 @@
     font-size: 2rem;
     margin-right: 40px;
  }
+ .aboutList ul li:nth-child(5){
+   margin-right: 0px;
+ }
  .aboutList ul li::before{
     content: '';
     display: inline-block;
