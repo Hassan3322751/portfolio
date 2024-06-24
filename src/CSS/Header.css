@@ -11,9 +11,19 @@
     width: 308px;
     height: 67px;
 }
-ul{
-    /* width: 500px; */
+.headLinks .link{
+    color: white;
 }
+.canvasLinks .link{
+    color: white;
+}
+.headLinks .link:hover{
+    color: red;
+}
+.canvasLinks .link:hover{
+    color: red;
+}
+
 .header ul li{
     list-style: none;
     display: inline-flex;

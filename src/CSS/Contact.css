@@ -1,0 +1,16 @@
+.contactForm{
+    display: grid;
+    justify-content: center;
+}
+.contactForm .field{
+    background: transparent;
+    border-radius: 24px;
+    color: white;
+}
+.contactForm .textArea{
+    height: 190px;
+}
+.contactForm .field::placeholder
+{
+    color: white!important; /* Change the placeholder color to gray */
+}

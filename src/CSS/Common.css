@@ -24,12 +24,11 @@
     position: relative;
     z-index: 0;
     height: fit-content;
-    width: 40vw;
 }
 .skew{
     position: absolute;
     top: -30px;
-    left: 65px;
+    left: 40px;
     border: 1px solid white;
     width: 323px;
     height: 181px;
@@ -46,7 +45,7 @@
 .skew1{
     position: absolute;
     bottom: -26px;
-    right: 70px;
+    right: 40px;
     width: 323px;
     height: 181px;
     background-color: #364854;

@@ -1,8 +1,7 @@
 .section1{
     display: flex;
-    /* margin-left: 74px;
-    margin-right: 82px; */
-    margin-top: 170px;
+    justify-content: space-between;
+    margin-top: 110px;
 }
 .btnGroup .btn1,
 .btnGroup .btn2{
