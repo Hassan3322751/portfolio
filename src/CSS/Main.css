@@ -123,6 +123,21 @@
     .section1 .list ul li{
         font-size: 2.2rem;
     }    
+    .footerCard1 {
+        width: 58.5rem;
+    }
+    .footerCard1 p {
+        font-size: 2.2rem;
+    }
+    .footerCard2 {
+        width: 59vw;
+    }
+    .footerCard2 h3 {
+        font-size: 3.4rem;
+    }
+    .footerCard2 ul li {
+        font-size: 2.2rem;
+    }    
 }
 @media (max-width: 760px) {
     .sectionData .first_span{
@@ -149,6 +164,14 @@
     .lg_cus_card{
         padding: 20px;
         justify-content: center;
+    }
+    .footer{
+        display: block;
+        width: 100%;
+    }
+    .footerCard1,
+    .footerCard2{
+        width: 100%;
     }
   }
   @media (max-width: 650px) {

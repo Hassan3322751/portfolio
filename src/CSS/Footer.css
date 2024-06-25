@@ -29,7 +29,7 @@
     flex-direction: column;
     justify-content: center;
     /* border: 1px solid red;/ */
-    background-color: red;
+    background-color: red !important;
 }
 .footerSection1 div{
     display: inline-flex;
@@ -48,3 +48,19 @@
 .footer_copyright{
     font-size: 2.3rem;
 }
+
+.footerCard2 ul li,
+.footerCard2 ul li a  {
+    padding: 3px 0px;
+    text-decoration: none;
+}
+.footerCard2 ul li a:hover{
+    text-decoration: underline;
+}
+.footerCard2 ul li,
+.footerCard2 ul li a,
+.footerCard2 .footer_col,
+.footerCard2 .bg_red {
+    background-color: red;
+    background-clip: border-box;
+  }

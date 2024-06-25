@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../CSS/Footer.css';
 import images from '../Images/images';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -18,42 +19,42 @@ const Footer = () => {
         </div>
 
         <div className="footerCard2 py-5">
-          {/* <Container style={{background: 'transparent'}}> */}
+          <Container style={{background: 'transparent'}}>
             <Row className="justify-content-center">
-              <Col xs={12} md={4} lg={4} className="mb-4 mb-md-0">
-                <h3 className="text-white font-size-24">Quick Links</h3>
-                <ul className="list-unstyled">
-                  <li><a href="#" className="text-white">Home</a></li>
-                  <li><a href="#" className="text-white">How It Works</a></li>
-                  <li><a href="#" className="text-white">Features</a></li>
-                  <li><a href="#" className="text-white">About Us</a></li>
-                  <li><a href="#" className="text-white">Contact</a></li>
+              <Col className="mb-4 mb-md-0 footer_col">
+                <h3 className="text-white font-size-24 bg_red">Quick Links</h3>
+                <ul className="list-unstyled bg_red">
+                  <li><Link href="#" className="text-white bg_red">Home</Link></li>
+                  <li><Link href="#" className="text-white bg_red">How It Works</Link></li>
+                  <li><Link href="#" className="text-white bg_red">Features</Link></li>
+                  <li><Link href="#" className="text-white bg_red">About Us</Link></li>
+                  <li><Link href="#" className="text-white bg_red">Contact</Link></li>
                 </ul>
               </Col>
-              <Col xs={12} md={4} lg={4} className="mb-4 mb-md-0">
-                <h3 className="text-white font-size-24">Quick Links</h3>
-                <ul className="list-unstyled">
-                  <li><a href="#" className="text-white">Home</a></li>
-                  <li><a href="#" className="text-white">How It Works</a></li>
-                  <li><a href="#" className="text-white">Features</a></li>
-                  <li><a href="#" className="text-white">About Us</a></li>
-                  <li><a href="#" className="text-white">Contact</a></li>
+              <Col className="mb-4 mb-md-0 footer_col">
+                <h3 className="text-white font-size-24 bg_red">Quick Links</h3>
+                <ul className="list-unstyled bg_red">
+                <li><Link href="#" className="text-white bg_red">Home</Link></li>
+                  <li><Link href="#" className="text-white bg_red">How It Works</Link></li>
+                  <li><Link href="#" className="text-white bg_red">Features</Link></li>
+                  <li><Link href="#" className="text-white bg_red">About Us</Link></li>
+                  <li><Link href="#" className="text-white bg_red">Contact</Link></li>
                 </ul>
               </Col>
-              <Col xs={12} md={4} lg={4}>
-                <h3 className="text-white font-size-24">Quick Links</h3>
-                <ul className="list-unstyled">
-                  <li><a href="#" className="text-white">Home</a></li>
-                  <li><a href="#" className="text-white">How It Works</a></li>
-                  <li><a href="#" className="text-white">Features</a></li>
-                  <li><a href="#" className="text-white">About Us</a></li>
-                  <li><a href="#" className="text-white">Contact</a></li>
+              <Col className='footer_col'>
+                <h3 className="text-white font-size-24 footer_col">Quick Links</h3>
+                <ul className="list-unstyled bg_red">
+                <li><Link href="#" className="text-white bg_red">Home</Link></li>
+                  <li><Link href="#" className="text-white bg_red">How It Works</Link></li>
+                  <li><Link href="#" className="text-white bg_red">Features</Link></li>
+                  <li><Link href="#" className="text-white bg_red">About Us</Link></li>
+                  <li><Link href="#" className="text-white bg_red">Contact</Link></li>
                 </ul>
               </Col>
             </Row>
-          {/* </Container> */}
+          </Container>
           <div className="text-center py-3 footer_copyright" style={{background: 'transparent'}}>
-            &copy; {new Date().getFullYear()} Your Social Boost
+            &copy; {new Date().getFullYear()} Portfolio
           </div>
         </div>
       </div>

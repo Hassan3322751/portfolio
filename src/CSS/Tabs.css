@@ -39,6 +39,9 @@
     .tab-buttons button{
       font-size: 2.1rem;
     }
+    .tab-buttons{
+      width: 100rem;
+    }
   }
   @media (max-width: 760px) {
     .tab-buttons {
