@@ -1,3 +1,8 @@
+@media (min-width: 1300px) {
+  html{
+      font-size: 50.5%;
+  }
+}
   @media (max-width: 1099px) {
     html{
         font-size: 42.5%;

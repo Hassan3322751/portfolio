@@ -15,41 +15,41 @@ const MainPage = ()=>{
             '../Images/simpleLogo.png', '../Images/simpleLogo.png', '../Images/simpleLogo.png',
             '../Images/simpleLogo.png', '../Images/simpleLogo.png', '../Images/simpleLogo.png',  
             ],
-            width: '100px',
+            width: '13rem',
           },
           {
             tabTitle: 'Backend',
             images:['../Images/Logo.png', '../Images/Logo.png', '../Images/Logo.png'],
-            width: '100px',
+            width: '13rem',
           },
           {
             tabTitle: 'Mobile',
             images:['../Images/simpleLogo.png', '../Images/simpleLogo.png', '../Images/simpleLogo.png'],
-            width: '100px',
+            width: '13rem',
           },
           {
             tabTitle: 'Database',
             images:['../Images/Logo.png', '../Images/Logo.png', '../Images/Logo.png'],
-            width: '100px',
+            width: '13rem',
           },
           {
             tabTitle: 'Full Stack',
             images:['../Images/simpleLogo.png', '../Images/simpleLogo.png', '../Images/simpleLogo.png'],
-            width: '100px',
+            width: '13rem',
           },
       ];
     return(
         <React.Fragment>
             <div className="section1">
                 <div className="sectionData">
-                    <span style={{fontSize: '3.2rem'}}>We Design and improve</span>
+                    <span className="first_span">We Design and improve</span>
 
-                    <h1 style={{fontSize: '5.8rem', width: '40vw', marginTop: '0px'}} className="m-0">
+                    <h1 style={{fontSize: '5.8rem', width: '50vw', marginTop: '0px'}} className="m-0">
                         Smart <span className="red">Web Solution </span>and  
                         <span className="red"> Build</span> Them
                     </h1>
 
-                    <span style={{fontSize: '1.8rem', marginTop: '46px'}}>
+                    <span style={{marginTop: '46px'}} className="sec_span">
                         Our site design, development, and marketing services are top-notch.
                     </span>
 
@@ -66,11 +66,11 @@ const MainPage = ()=>{
 
             <div className="section1">
                 <div className="sectionData">
-                    <h1 style={{fontSize: '5.8rem', width: '40vw', marginTop: '0px'}} className="m-0">
+                    <h1 style={{fontSize: '5.8rem', width: '50vw', marginTop: '0px'}} className="m-0">
                         <span className="red">Digitalize </span>your business
                     </h1>
 
-                    <span style={{fontSize: '1.8rem', width: '40vw', display: 'flex'}}>
+                    <span style={{width: '50vw', display: 'flex'}} className="sec_span">
                         With agility, devotion, and high-quality IT services, we support businesses by offering custom and specialized business solutions.
                     </span>
 
@@ -87,15 +87,15 @@ const MainPage = ()=>{
 
             <div className="section1">
                 <div className="sectionData">
-                    <span style={{fontSize: '3.2rem'}}>Our Services</span>
+                    <span className="first_span">Our Services</span>
 
-                    <h1 style={{fontSize: '5.8rem', width: '40vw', marginTop: '0px'}} className="m-0">
+                    <h1 style={{fontSize: '5.8rem', width: '50vw', marginTop: '0px'}} className="m-0">
                         <span className="red">Devops </span>Technology
                         for Your  
                         <span className="red"> Successful</span> Business
                     </h1>
 
-                    <span style={{fontSize: '1.8rem', marginTop: '46px'}}>
+                    <span style={{marginTop: '46px'}} className="sec_span">
                         Our site design, development, and marketing services are top-notch.
                     </span>
                 </div>
@@ -137,24 +137,24 @@ const MainPage = ()=>{
             </div>
 
             <div className="sectionData" style={{marginTop:'50px'}}>
-                <h1 style={{fontSize: '5.8rem', width: '40vw', marginTop: '0px'}} className="m-0">
+                <h1 style={{fontSize: '5.8rem', width: '50vw', marginTop: '0px'}} className="m-0">
                     Expertise
                 </h1>
 
-                <span style={{fontSize: '1.8rem', marginTop: '46px'}}>
+                <span style={{marginTop: '46px'}} className="sec_span">
                     We use IT expertise to develop cutting-edge software solutions.
                 </span>
             </div>
 
             <div className="section1">
                 <div className="sectionData">
-                    <span style={{fontSize: '3.2rem'}}>Design & Development</span>
+                    <span className="first_span">Design & Development</span>
 
-                    <h1 style={{fontSize: '5.8rem', width: '40vw', marginTop: '0px'}} className="m-0">
+                    <h1 style={{fontSize: '5.8rem', width: '50vw', marginTop: '0px'}} className="m-0">
                         Custom<span className="red"> App </span>Solutions
                     </h1>
 
-                    <span style={{fontSize: '1.8rem', marginTop: '46px'}}>
+                    <span style={{marginTop: '46px'}} className="sec_span">
                     We provide high-fidelity web software solutions that are tailored to your
                     particular business processes. Using the most up-to-date SDLC tools and
                     cross-platform technology, we develop, modernize, optimize, and grow your
@@ -185,13 +185,13 @@ const MainPage = ()=>{
 
             <div className="section1">
                 <div className="sectionData">
-                    <span style={{fontSize: '3.2rem'}}>Web Design & Development</span>
+                    <span className="first_span">Web Design & Development</span>
 
-                    <h1 style={{fontSize: '5.8rem', width: '40vw', marginTop: '0px'}} className="m-0">
+                    <h1 style={{fontSize: '5.8rem', width: '50vw', marginTop: '0px'}} className="m-0">
                         Custom<span className="red"> Website </span>Solutions
                     </h1>
 
-                    <span style={{fontSize: '1.8rem', marginTop: '46px'}}>
+                    <span style={{marginTop: '46px'}} className="sec_span">
                     We provide high-fidelity web software solutions that are tailored to your
                     particular business processes. Using the most up-to-date SDLC tools and
                     cross-platform technology, we develop, modernize, optimize, and grow your
@@ -223,10 +223,10 @@ const MainPage = ()=>{
                 <div className="sectionData">
                     <div className="coreTechs">
                         <div className="data">
-                            <h1 style={{fontSize: '5.8rem', width: '40vw', marginTop: '0px'}} className="m-0">
+                            <h1 style={{fontSize: '5.8rem', width: '50vw', marginTop: '0px'}} className="m-0">
                                 Custom<span className="red"> Website </span>Solutions
                             </h1>
-                            <span style={{fontSize: '1.8rem', marginTop: '46px'}}>
+                            <span style={{marginTop: '46px'}} className="sec_span">
                                 SumizanWebs uses a variety of contemporary technologies
                                 for efficient, scalable, and long-lasting customized
                                 software development.
@@ -243,17 +243,17 @@ const MainPage = ()=>{
             </div>
 
             <div className="sectionData">
-                <h1 style={{fontSize: '5.8rem', width: '43vw', marginTop: '0px'}} className="m-0">
+                <h1 style={{fontSize: '5.8rem', width: '43vw'}} className="m-0">
                     The<span className="red"> Ideal Engagement Model </span>Should Be
                     <span className="red"> Chosen</span>
                 </h1>
-                <span style={{fontSize: '1.8rem', marginTop: '46px'}}>
+                <span style={{marginTop: '46px'}} className="sec_span">
                     Based on the project needs and your company specifications
                 </span>
 
                 <div className="services">
-                    <div className="cus_card" style={{padding: '40px'}}>
-                        <img src={'../Images/tickSearch.png'} className="img" style={{width: '123px', height: '123px'}} />
+                    <div className="cus_card lg_cus_card" style={{padding: '30px'}}>
+                        <img src={images.tickSearch} className="img" style={{width: '12.3rem', height: '12.3rem'}} />
                         <span className="cardHeading red">Web Development</span>
                         <span className="cardText">
                             By choosing, employing, and managing highly qualified software developers and IT specialists on a long-term basis, you may create your own team. In order to achieve agile software development, this approach is meant to assist you in locating and enlisting specialized personnel who possess the necessary skills and cultural fit.
@@ -262,8 +262,8 @@ const MainPage = ()=>{
                             <button className="btn1" style={{marginTop: '40px'}}>More Details</button>
                         </div>
                     </div>
-                    <div className="cus_card" style={{padding: '40px'}}>
-                        <img src={'../Images/coinsBag.png'} className="img" style={{width: '123px', height: '123px'}} />
+                    <div className="cus_card lg_cus_card" style={{padding: '30px'}}>
+                        <img src={images.coinsBag} className="img" style={{width: '12.3rem', height: '12.3rem'}} />
                         <span className="cardHeading red">UX/UI Design</span>
                         <span className="cardText">
                             The greatest software development professionals are available to you through our project-based approach, which is often offered at a fixed fee. With the aid of this approach, a customer and our IT experts working on a particular project should be able to communicate effectively and quickly.

@@ -1,15 +1,21 @@
 .section1{
     display: flex;
     justify-content: space-between;
-    margin-top: 110px;
+    margin-top: 10rem;
+}
+.sectionData .first_span{
+    font-size: 3.2rem;
+}
+.sectionData .sec_span{
+    font-size: 2rem;
 }
 .btnGroup .btn1,
 .btnGroup .btn2{
-    margin-top: 50px;
-    width: 137px;
-    height: 43px;
+    margin-top: 4rem;
+    width: 12.9rem;
+    height: 4.5rem;
     border-radius: 60px;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 .btnGroup .btn1{
     border: none;
@@ -19,10 +25,16 @@
     border: 1px solid white;
     margin-left: 10px;
 }
+.btnGroup .btn2:hover{
+    border: 1px solid rgba(255, 65, 55, 1);
+    margin-left: 10px;
+    color: rgba(255, 65, 55, 1);
+}
 
 /* Services cards */
 .services{
     display: flex;
+    box-sizing: border-box;
     justify-content: space-around;
     margin-top: 100px;
 }
@@ -33,6 +45,7 @@
     box-sizing: border-box;
     padding: 20px;
     border-radius: 40px;
+    margin: 0px 1.5rem;
 }
 .services .cus_card .img,
 .services .cus_card .cardHeading,
@@ -40,23 +53,16 @@
     background: transparent;
 }
 .services .cus_card .img{
-    width: 50px;
-    height: 50px;
+    width: 6rem;
+    height: 6rem;
 }
 .services .cus_card .cardHeading{
-    margin: 15px 0px;
+    margin: 1.5rem 0px;
     font-size: 2.5rem;
 }
 .services .cus_card .cardText{
-    /* margin: 15px 0px; */
     font-size: 1.7rem;
 }
-/* .services .card:hover{
-    background: rgba(255, 65, 55, 1);
-}
-.services .card:hover .cardHeading{
-    color: white;
-} */
 .services .cus_card:nth-child(4){
     background: rgba(255, 65, 55, 1);
 }
@@ -76,7 +82,7 @@
     justify-content: space-between;
     align-items: center;
     width: 98vw;
-    padding-right: 100px;
+    padding-right: 50px;
     box-sizing: border-box;
 }
 .coreTechs .data, .coreTechs .logoImg{
@@ -86,10 +92,101 @@
     width: 50vw;
 }
 .coreTechs img{
-    width: 262px;
+    width: 26.2rem;
 }
 
 /* Services Tabs */
 .servicesTabs{
     float: left;
+    margin-top: 30px;
 }
+
+@media (max-width: 900px) {
+    .sectionData .first_span{
+        font-size: 3.8rem;
+    }
+    .sectionData .sec_span{
+        font-size: 2.5rem;
+    }
+    .btnGroup .btn1,
+    .btnGroup .btn2{
+        width: 17.9rem;
+        height: 5.5rem;
+        font-size: 2.3rem;
+    }
+    .services .cus_card .cardText{
+        font-size: 2rem;
+    }
+    .services .cus_card .cardHeading{
+        font-size: 3rem;
+    }
+    .section1 .list ul li{
+        font-size: 2.2rem;
+    }    
+}
+@media (max-width: 760px) {
+    .sectionData .first_span{
+        font-size: 4.2rem;
+    }
+    .btnGroup .btn1,
+    .btnGroup .btn2{
+        width: 17.9rem;
+        height: 5.5rem;
+        font-size: 2.3rem;
+    }
+    .services .cus_card .cardText{
+        font-size: 2.2rem;
+    }
+    .services .lg_cus_card .cardText {
+        font-size: 2.5rem;
+    }
+    .services .lg_cus_card .cardHeading {
+        font-size: 4rem;
+    }
+    .section1 .list ul li{
+        font-size: 2.7rem;
+    }   
+    .lg_cus_card{
+        padding: 20px;
+        justify-content: center;
+    }
+  }
+  @media (max-width: 650px) {
+    .btnGroup .btn1,
+    .btnGroup .btn2{
+        width: 17.9rem;
+        height: 5.5rem;
+        font-size: 2.3rem;
+    }
+    .sectionData .sec_span{
+        font-size: 2.78rem;
+    }
+    .services .cus_card .cardText {
+        font-size: 2.49rem;
+    }
+    .services .cus_card{
+        padding: 15px;
+    }
+    .section1 .list ul li{
+        font-size: 2.78rem;
+    }
+  }
+  @media (max-width: 540px) {
+    .btnGroup .btn1,
+    .btnGroup .btn2{
+        width: 17.9rem;
+        height: 5.5rem;
+        font-size: 2.3rem;
+    }
+    .services{
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    .services .cus_card{
+        margin: 5px 0px;
+    }
+    /* .services_img{
+        width: 45rem;
+        margin-left: 20rem;
+    } */
+  }

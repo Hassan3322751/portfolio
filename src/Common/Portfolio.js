@@ -47,8 +47,8 @@ const Portfolio = () => {
                     <h1 style={{fontSize: '5.8rem', width: '35vw'}}>
                         Portfolio
                     </h1>
-                    <span style={{fontSize: '2.5rem'}} className='d-flex mt-3 mb-1'>Our work performs as it sees</span>
-                    <span style={{fontSize: '1.5rem'}}>
+                    <span className='d-flex mt-3 mb-1 first_span'>Our work performs as it sees</span>
+                    <span className='sec_span'>
                     We create beautiful, interesting, and responsive web and mobile applications
                     </span>
 
@@ -74,17 +74,17 @@ const constIdea = () => {
     <React.Fragment>
         <div className="section1 porfoIdeasSection">
             <div className="sectionData">
-                <span style={{fontSize: '2.5rem'}} className='mt-3 mb-1'>
+                <span style={{fontSize: '4rem'}} className='mt-3 mb-1'>
                     We <span className='red'>Construct</span> Ideas
                 </span>
                 <div className="btnGroup">
-                    <button className="btn1" style={{width: '345px'}}>Let’s Talk About Your Project</button>
+                    <button className="btn1" style={{width: '34.5rem'}}>Let’s Talk About Your Project</button>
                 </div>
             </div>
 
             <div>
               <LazyLoad>
-                <img src='../Images/3bulbs.png' />
+                <img src={images.bulbs} className='porfolio_bulbs_img' style={{width: '40rem'}}/>
               </LazyLoad>
             </div>
         </div>

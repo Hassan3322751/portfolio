@@ -16,9 +16,9 @@ const Contact = () => {
                     <h1 style={{fontSize: '5.8rem', width: '35vw', marginTop: '0px'}} className="m-0">
                         <span className="red">Contact </span>Us
                     </h1>
-                    <span style={{fontSize: '3.2rem'}}>Our work performs as it sees</span>
+                    <span className='first_span'>Our work performs as it sees</span>
                     <br/>
-                    <span style={{fontSize: '1.8rem', marginTop: '46px'}}>
+                    <span className='sec_span'>
                     We create beautiful, interesting, and responsive web and mobile applications
                     </span>
 
@@ -63,7 +63,7 @@ const Contact = () => {
                     Rescue Your <span className="red">Company’s Growth!</span>
                     </h1>
 
-                    <span style={{fontSize: '1.8rem', marginTop: '46px'}}>
+                    <span className='sec_span'>
                         Let us know about your business plans on an introductory call, and we’ll lead the matching process.
                     </span>
 

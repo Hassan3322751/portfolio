@@ -3,13 +3,9 @@
     align-items: center;
     justify-content: space-between;
 }
-.brand{
-    width: 308px;
-    height: 67px;
-}
 .logo{
-    width: 308px;
-    height: 67px;
+    width: 32.8rem;
+    height: 8.7rem;
 }
 .headLinks .link{
     color: white;

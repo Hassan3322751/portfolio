@@ -1,0 +1,15 @@
+.section1{
+    align-items: center;
+}
+.services_img{
+    width: 30rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+@media  (max-width: 760px) {
+    .services_img{
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+}

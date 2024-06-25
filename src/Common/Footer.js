@@ -1,84 +1,64 @@
-import React from 'react'
+import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import '../CSS/Footer.css'
+import '../CSS/Footer.css';
+import images from '../Images/images';
 
 const Footer = () => {
   return (
     <React.Fragment>
-        <div className='footer'>
-            <div className='footerCard1'>
-                <img src={'../Images/Logo.png'} />
-                <span>
-                SumizanWebs excels in software development and data analytics, driving digital transformation with innovative solutions across diverse industries worldwide.
-                </span>
-                <br/>
-                <span>
-                Have a game-changing app idea but don't know where to begin? We're the app alchemists at SumizanWebs. We turn your vision into cutting-edge mobile apps that will take the world by storm.  Let's brainstorm and build something amazing together!
-                </span>
-            </div>
+      <div className="footer p-0">
+        <div className="footerCard1 py-5">
+          <img src={images.logo} alt="SumizanWebs Logo" className="img-fluid mb-4" />
+          <p className="text-white font-size-18">
+            SumizanWebs excels in software development and data analytics, driving digital transformation with innovative solutions across diverse industries worldwide.
+          </p>
+          <p className="text-white font-size-18">
+            Have a game-changing app idea but don't know where to begin? We're the app alchemists at SumizanWebs. We turn your vision into cutting-edge mobile apps that will take the world by storm.  Let's brainstorm and build something amazing together!
+          </p>
+        </div>
 
-            <div className='footerCard2'>
-                <Row>
-                <Col>
-                    <h3>Quick Links</h3>
-                    <div className="d-flex align-items-center mt-5">
-                    <ul className="list-unstyled">
-                        <li><a href="#" className='text-white'>Home</a></li>
-                        <li><a href="#" className='text-white'>How It Works</a></li>
-                        <li><a href="#" className='text-white'>Features</a></li>
-                        <li><a href="#" className='text-white'>About Us</a></li>
-                        <li><a href="#" className='text-white'>Contact</a></li>
-                    </ul>
-                    </div>
-                </Col>
-                <Col>
-                    <h3>Quick Links</h3>
-                    <div className="d-flex align-items-center mt-5">
-                    <ul className="list-unstyled">
-                        <li><a href="#" className='text-white'>Home</a></li>
-                        <li><a href="#" className='text-white'>How It Works</a></li>
-                        <li><a href="#" className='text-white'>Features</a></li>
-                        <li><a href="#" className='text-white'>About Us</a></li>
-                        <li><a href="#" className='text-white'>Contact</a></li>
-                    </ul>
-                    </div>
-                </Col>
-                <Col>
-                    <h3>Quick Links</h3>
-                    <div className="d-flex align-items-center mt-5">
-                    <ul className="list-unstyled">
-                        <li><a href="#" className='text-white'>Home</a></li>
-                        <li><a href="#" className='text-white'>How It Works</a></li>
-                        <li><a href="#" className='text-white'>Features</a></li>
-                        <li><a href="#" className='text-white'>About Us</a></li>
-                        <li><a href="#" className='text-white'>Contact</a></li>
-                    </ul>
-                    </div>
-                </Col>
-                </Row>
-                <div className="text-center py-3">
-                    &copy; {new Date().getFullYear()} Your Social Boost
-                </div>
-            </div>
-            </div>
-            {/* <div className='footerCard2'>
-                <div className='footerSection1'>
-                <div className='footerLinks1'>
-                <sapn className='footerHeading'>Get In Touch</sapn>
-                </div>
-                <div className='footerLinks2'>
-                <span className='footerHeading'>Quick Links</span>
-                </div>
-                <div className='footerLinks3'>
-                <span className='footerHeading'>Popular Links</span>
-                    </div>
-                </div>
-                <div className='footerSection2'>
-
-                </div>
-            </div> */}
+        <div className="footerCard2 py-5">
+          {/* <Container style={{background: 'transparent'}}> */}
+            <Row className="justify-content-center">
+              <Col xs={12} md={4} lg={4} className="mb-4 mb-md-0">
+                <h3 className="text-white font-size-24">Quick Links</h3>
+                <ul className="list-unstyled">
+                  <li><a href="#" className="text-white">Home</a></li>
+                  <li><a href="#" className="text-white">How It Works</a></li>
+                  <li><a href="#" className="text-white">Features</a></li>
+                  <li><a href="#" className="text-white">About Us</a></li>
+                  <li><a href="#" className="text-white">Contact</a></li>
+                </ul>
+              </Col>
+              <Col xs={12} md={4} lg={4} className="mb-4 mb-md-0">
+                <h3 className="text-white font-size-24">Quick Links</h3>
+                <ul className="list-unstyled">
+                  <li><a href="#" className="text-white">Home</a></li>
+                  <li><a href="#" className="text-white">How It Works</a></li>
+                  <li><a href="#" className="text-white">Features</a></li>
+                  <li><a href="#" className="text-white">About Us</a></li>
+                  <li><a href="#" className="text-white">Contact</a></li>
+                </ul>
+              </Col>
+              <Col xs={12} md={4} lg={4}>
+                <h3 className="text-white font-size-24">Quick Links</h3>
+                <ul className="list-unstyled">
+                  <li><a href="#" className="text-white">Home</a></li>
+                  <li><a href="#" className="text-white">How It Works</a></li>
+                  <li><a href="#" className="text-white">Features</a></li>
+                  <li><a href="#" className="text-white">About Us</a></li>
+                  <li><a href="#" className="text-white">Contact</a></li>
+                </ul>
+              </Col>
+            </Row>
+          {/* </Container> */}
+          <div className="text-center py-3 footer_copyright" style={{background: 'transparent'}}>
+            &copy; {new Date().getFullYear()} Your Social Boost
+          </div>
+        </div>
+      </div>
     </React.Fragment>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

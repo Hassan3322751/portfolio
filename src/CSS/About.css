@@ -1,3 +1,9 @@
+.sectionData .about_first_span{
+   font-size: 3.2rem;
+}
+.sectionData .about_sec_span{
+   font-size: 1.8rem;
+}
 .aboutList{
     display: flex;
 }
@@ -10,7 +16,7 @@
 }
  .aboutList ul li{
     list-style: none;
-    font-size: 2rem;
+    font-size: 3rem;
     margin-right: 40px;
  }
  .aboutList ul li:nth-child(5){
@@ -41,4 +47,32 @@
     background-position: center;
     background-size: contain;
     margin-top: 30px;
+ }
+
+ @media (max-width: 900px) {
+   .sectionData .about_sec_span {
+      font-size: 2.3rem;
+  }  
+}
+@media (max-width: 760px) {
+   .sectionData .about_first_span{
+      font-size: 3.9rem;
+   }
+   .sectionData .about_sec_span {
+      font-size: 2.7rem;
+  }
+ }
+
+ @media (max-width: 650px) {
+   .sectionData .about_sec_span{
+      font-size: 2.6rem;
+   }
+ }
+ @media (max-width: 540px) {
+   .sectionData .about_first_span {
+      font-size: 3.7rem;
+  }
+  .sectionData .about_sec_span {
+   font-size: 2.95rem;
+}
  }

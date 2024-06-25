@@ -1,6 +1,6 @@
 .tab-container {
     box-sizing: border-box;
-    margin: 40px auto;
+    margin: 20px auto;
   }
   
   .active{
@@ -21,6 +21,7 @@
 
   .tab-buttons button{
     border: 0px solid black;
+    padding: 0px .8rem;
   }
 
   .tab-content {
@@ -34,12 +35,29 @@
     margin: 0px 5px;
   }
   
-  @media (max-width: 600px) {
-    .tab-container {
-      max-width: 40.0rem;
+  @media (max-width: 900px) {
+    .tab-buttons button{
+      font-size: 2.1rem;
     }
+  }
+  @media (max-width: 760px) {
+    .tab-buttons {
+      width: 100rem;
+      height: 8rem;
+    }
+    .tab-buttons button{
+      font-size: 2.5rem;
+    }
+  }
+  @media (max-width: 600px) {
     .tab-buttons img {
       width: 3.0rem;
       height: 3.0rem;
+    }
+    .tab-button{
+      width: 108%;
+    }
+    .tab-buttons{
+      width: 100%;
     }
   }

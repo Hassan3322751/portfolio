@@ -1,27 +1,35 @@
+
 .footer{
     display: inline-flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 5.0rem;
 }
 .footerCard1{
     border: 1px solid white;
-    padding: 0px 20px;
+    padding: 0px 2.0rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 345px;
-    height: 290px;
-    font-size: 15px;
+    width: 46.5rem;
+    height: 37.0rem;
+    font-size: 1.5rem;
+}
+.footerCard1 p{
+    font-size: 1.8rem;
 }
 .footerCard1 img{
-    margin-bottom: 10px;
-    width: 308px;
-    height: 68px;
+    margin-bottom: 1.0rem;
+    width: 30.8rem;
+    height: 6.8rem;
 }
 .footerCard2{
-    width: 65vw;
-    display: inline;
-    border: 1px solid red;
+    margin-left: 1rem;
+    width: 68vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid red;/ */
+    background-color: red;
 }
 .footerSection1 div{
     display: inline-flex;
@@ -29,5 +37,14 @@
     border: 1px solid red;
 }
 .footerHeading{
-    font-size: 21px;
+    font-size: 2.1rem;
+}
+.footerCard2 ul li{
+    font-size: 1.8rem;
+}
+.footerCard2 h3{
+    font-size: 2.8rem;
+}
+.footer_copyright{
+    font-size: 2.3rem;
 }
