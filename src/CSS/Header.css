@@ -37,3 +37,22 @@
     width: 24.31px;
     height: 15.89px;
 }
+.offcanvas{
+    max-width: 70%;
+}
+.offcanvas-header{
+    padding: 9px 6.5rem;
+}
+.offcanvas-title{
+    font-size: 2.99rem;
+}
+.offcanvas-body .canvasLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.offcanvas-body ul li{
+    margin: 4px 10px;
+    height: 18px;
+    font-size: 2.52rem;
+}
