@@ -9,6 +9,10 @@
 .sectionData .sec_span{
     font-size: 2rem;
 }
+.sectionData h1{
+    width: 50vw;
+    font-weight: bold;
+}
 .btnGroup .btn1,
 .btnGroup .btn2{
     margin-top: 4rem;
@@ -26,9 +30,9 @@
     margin-left: 10px;
 }
 .btnGroup .btn2:hover{
-    border: 1px solid rgba(255, 65, 55, 1);
+    border: 1px solid rgb(240, 104, 97);
     margin-left: 10px;
-    color: rgba(255, 65, 55, 1);
+    color: rgb(240, 104, 97);
 }
 
 /* Services cards */
@@ -201,15 +205,32 @@
         height: 5.5rem;
         font-size: 2.3rem;
     }
-    .services{
-        flex-wrap: wrap;
-        margin-top: 50px;
-    }
     .services .cus_card{
         margin: 5px 0px;
     }
-    /* .services_img{
-        width: 45rem;
-        margin-left: 20rem;
-    } */
+  }
+  @media (max-width: 400px) {
+    .brand{
+        display: none;
+    }
+  }
+  @media (max-width: 300px){
+    .brand{
+        display: none;
+    }
+    .btnGroup .btn1{
+        margin-top: 20px;
+    }
+    .coreTechs{
+        padding-right: 20px;
+    }
+    .lg_cus_card{
+        padding: 18px;
+    }
+    .lg_cus_card .cardText{
+        font-size: 2.56rem;
+    }
+    .lg_cus_card .btn1{
+        margin-top: 14px;
+    }
   }

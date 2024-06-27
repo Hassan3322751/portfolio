@@ -28,44 +28,8 @@
         font-size: 26.5%;
     }
   }
-  /* @media (max-width: 1200px) {
-    .skew {
-      width: 250px;
-      height: 140px;
-    }
-    .skewImg {
-      height: 200px;
-    }
-    .skew1 {
-      width: 250px;
-      height: 140px;
+  @media (max-width: 300px) {
+    html{
+        font-size: 20.8%;
     }
   }
-  
-  @media (max-width: 900px) {
-    .skew {
-      width: 180px;
-      height: 100px;
-    }
-    .skewImg {
-      height: 150px;
-    }
-    .skew1 {
-      width: 180px;
-      height: 100px;
-    }
-  }
-  
-  @media (max-width: 600px) {
-    .skew {
-      width: 120px;
-      height: 70px;
-    }
-    .skewImg {
-      height: 100px;
-    }
-    .skew1 {
-      width: 120px;
-      height: 70px;
-    }
-  }  */

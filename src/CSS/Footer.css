@@ -1,8 +1,8 @@
-
 .footer{
     display: inline-flex;
     justify-content: space-between;
     margin-top: 5.0rem;
+    width: 100%;
 }
 .footerCard1{
     border: 1px solid white;
@@ -10,8 +10,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 46.5rem;
-    height: 37.0rem;
+    width: 28%;
     font-size: 1.5rem;
 }
 .footerCard1 p{
@@ -28,8 +27,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* border: 1px solid red;/ */
-    background-color: red !important;
+    background-color: #FF4137 !important;
 }
 .footerSection1 div{
     display: inline-flex;
@@ -61,6 +59,14 @@
 .footerCard2 ul li a,
 .footerCard2 .footer_col,
 .footerCard2 .bg_red {
-    background-color: red;
+    background-color: #FF4137;
     background-clip: border-box;
-  }
+}
+@media (max-width: 300px) {
+    .footerCard1{
+        height: fit-content;
+    }
+    .footerCard2{
+        margin-left: 0px;
+    } 
+}

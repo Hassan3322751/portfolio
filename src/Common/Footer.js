@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <React.Fragment>
-      <div className="footer p-0">
+      <div className="footer p-0 ml-0" id='footerDiv'>
         <div className="footerCard1 py-5">
           <img src={images.logo} alt="SumizanWebs Logo" className="img-fluid mb-4" />
           <p className="text-white font-size-18">
@@ -21,7 +21,7 @@ const Footer = () => {
         <div className="footerCard2 py-5">
           <Container style={{background: 'transparent'}}>
             <Row className="justify-content-center">
-              <Col className="mb-4 mb-md-0 footer_col">
+              <Col className="footer_col">
                 <h3 className="text-white font-size-24 bg_red">Quick Links</h3>
                 <ul className="list-unstyled bg_red">
                   <li><Link href="#" className="text-white bg_red">Home</Link></li>
@@ -31,7 +31,7 @@ const Footer = () => {
                   <li><Link href="#" className="text-white bg_red">Contact</Link></li>
                 </ul>
               </Col>
-              <Col className="mb-4 mb-md-0 footer_col">
+              <Col className="footer_col">
                 <h3 className="text-white font-size-24 bg_red">Quick Links</h3>
                 <ul className="list-unstyled bg_red">
                 <li><Link href="#" className="text-white bg_red">Home</Link></li>

@@ -5,6 +5,7 @@ import Tab from "../src/Common/Tabs"
 import '../src/CSS/Main.css'
 import '../src/CSS/Common.css'
 import '../src/CSS/Responsive.css'
+import { Link } from "react-router-dom";
 
 
 const MainPage = ()=>{
@@ -44,65 +45,73 @@ const MainPage = ()=>{
                 <div className="sectionData">
                     <span className="first_span">We Design and improve</span>
 
-                    <h1 style={{fontSize: '5.8rem', width: '50vw', marginTop: '0px'}} className="m-0">
+                    <h1 style={{fontSize: '5.8rem'}} className="m-0 full_width">
                         Smart <span className="red">Web Solution </span>and  
                         <span className="red"> Build</span> Them
                     </h1>
 
-                    <span style={{marginTop: '46px'}} className="sec_span">
+                    <span className="sec_span">
                         Our site design, development, and marketing services are top-notch.
                     </span>
 
                     <div className="btnGroup">
-                        <button className="btn1">Portfolio</button>
-                        <button className="btn2">Contact Us</button>
+                        <Link to='/portfolio'>
+                            <button className="btn1">Portfolio</button>
+                        </Link>
+                        <Link to='/contact'>
+                            <button className="btn2">Contact Us</button>
+                        </Link>
                     </div>
                 </div>
 
-                {/* <div className="sectionGraphics"> */}
+                <div className="sectionGraphics">
                     <SkewImg image={images.skewImg1}/>
-                {/* </div>   */}
+                </div>  
             </div>
 
             <div className="section1">
                 <div className="sectionData">
-                    <h1 style={{fontSize: '5.8rem', width: '50vw', marginTop: '0px'}} className="m-0">
+                    <h1 style={{fontSize: '5.8rem'}} className="m-0 full_width">
                         <span className="red">Digitalize </span>your business
                     </h1>
 
-                    <span style={{width: '50vw', display: 'flex'}} className="sec_span">
+                    <span style={{display: 'flex'}} className="sec_span">
                         With agility, devotion, and high-quality IT services, we support businesses by offering custom and specialized business solutions.
                     </span>
 
                     <div className="btnGroup">
-                        <button className="btn1">Who we are ?</button>
-                        <button className="btn2">Portfolio</button>
+                        <Link to='/about'>
+                            <button className="btn1">Who we are ?</button>
+                        </Link>
+                        <Link to='/portfolio'>
+                            <button className="btn2">Portfolio</button>
+                        </Link>
                     </div>
                 </div>
 
-                {/* <div className="sectionGraphics"> */}
+                <div className="sectionGraphics">
                     <SkewImg image={images.skewImg2}/>
-                {/* </div> */}
+                </div>
             </div>
 
             <div className="section1">
                 <div className="sectionData">
                     <span className="first_span">Our Services</span>
 
-                    <h1 style={{fontSize: '5.8rem', width: '50vw', marginTop: '0px'}} className="m-0">
+                    <h1 style={{fontSize: '5.8rem'}} className="m-0 full_width">
                         <span className="red">Devops </span>Technology
                         for Your  
                         <span className="red"> Successful</span> Business
                     </h1>
 
-                    <span style={{marginTop: '46px'}} className="sec_span">
+                    <span className="sec_span">
                         Our site design, development, and marketing services are top-notch.
                     </span>
                 </div>
 
-                {/* <div className="sectionGraphics"> */}
+                <div className="sectionGraphics">
                     <SkewImg image={images.skewImg3}/>
-                {/* </div> */}
+                </div>
             </div>
 
             <div className="services">
@@ -137,11 +146,11 @@ const MainPage = ()=>{
             </div>
 
             <div className="sectionData" style={{marginTop:'50px'}}>
-                <h1 style={{fontSize: '5.8rem', width: '50vw', marginTop: '0px'}} className="m-0">
+                <h1 style={{fontSize: '5.8rem'}} className="m-0 full_width">
                     Expertise
                 </h1>
 
-                <span style={{marginTop: '46px'}} className="sec_span">
+                <span className="sec_span">
                     We use IT expertise to develop cutting-edge software solutions.
                 </span>
             </div>
@@ -150,11 +159,11 @@ const MainPage = ()=>{
                 <div className="sectionData">
                     <span className="first_span">Design & Development</span>
 
-                    <h1 style={{fontSize: '5.8rem', width: '50vw', marginTop: '0px'}} className="m-0">
+                    <h1 style={{fontSize: '5.8rem'}} className="m-0 full_width">
                         Custom<span className="red"> App </span>Solutions
                     </h1>
 
-                    <span style={{marginTop: '46px'}} className="sec_span">
+                    <span className="sec_span">
                     We provide high-fidelity web software solutions that are tailored to your
                     particular business processes. Using the most up-to-date SDLC tools and
                     cross-platform technology, we develop, modernize, optimize, and grow your
@@ -174,24 +183,23 @@ const MainPage = ()=>{
                         </ul>
                     </div>
                     <div className="btnGroup">
-                        <button className="btn1" style={{marginTop: '40px'}}>More Details</button>
+                        <button className="btn1">More Details</button>
                     </div>
                 </div>
-
-                {/* <div className="sectionGraphics"> */}
-                    <SkewImg image={images.skewImg3}/>
-                {/* </div> */}
+                        <div className="sectionGraphics">
+                            <SkewImg image={images.skewImg3}/>
+                        </div>
             </div>
 
             <div className="section1">
                 <div className="sectionData">
                     <span className="first_span">Web Design & Development</span>
 
-                    <h1 style={{fontSize: '5.8rem', width: '50vw', marginTop: '0px'}} className="m-0">
+                    <h1 style={{fontSize: '5.8rem'}} className="m-0 full_width">
                         Custom<span className="red"> Website </span>Solutions
                     </h1>
 
-                    <span style={{marginTop: '46px'}} className="sec_span">
+                    <span className="sec_span">
                     We provide high-fidelity web software solutions that are tailored to your
                     particular business processes. Using the most up-to-date SDLC tools and
                     cross-platform technology, we develop, modernize, optimize, and grow your
@@ -210,23 +218,23 @@ const MainPage = ()=>{
                         </ul>
                     </div>
                     <div className="btnGroup">
-                        <button className="btn1" style={{marginTop: '40px'}}>More Details</button>
+                        <button className="btn1" style={{marginTop: '30px'}}>More Details</button>
                     </div>
                 </div>
 
-                {/* <div className="sectionGraphics"> */}
+                <div className="sectionGraphics">
                     <SkewImg image={images.skewImg3}/>
-                {/* </div> */}
+                </div>
             </div>
 
             <div className="section1">
                 <div className="sectionData">
                     <div className="coreTechs">
                         <div className="data">
-                            <h1 style={{fontSize: '5.8rem', width: '50vw', marginTop: '0px'}} className="m-0">
+                            <h1 style={{fontSize: '5.8rem'}} className="m-0 full_width">
                                 Custom<span className="red"> Website </span>Solutions
                             </h1>
-                            <span style={{marginTop: '46px'}} className="sec_span">
+                            <span className="sec_span">
                                 SumizanWebs uses a variety of contemporary technologies
                                 for efficient, scalable, and long-lasting customized
                                 software development.
@@ -243,11 +251,11 @@ const MainPage = ()=>{
             </div>
 
             <div className="sectionData">
-                <h1 style={{fontSize: '5.8rem', width: '43vw'}} className="m-0">
+                <h1 style={{fontSize: '5.8rem'}} className="m-0 full_width">
                     The<span className="red"> Ideal Engagement Model </span>Should Be
                     <span className="red"> Chosen</span>
                 </h1>
-                <span style={{marginTop: '46px'}} className="sec_span">
+                <span className="sec_span">
                     Based on the project needs and your company specifications
                 </span>
 
@@ -269,7 +277,7 @@ const MainPage = ()=>{
                             The greatest software development professionals are available to you through our project-based approach, which is often offered at a fixed fee. With the aid of this approach, a customer and our IT experts working on a particular project should be able to communicate effectively and quickly.
                         </span>
                         <div className="btnGroup">
-                            <button className="btn2" style={{marginTop: '40px'}}>More Details</button>
+                            <button className="btn2">More Details</button>
                         </div>
                     </div>
                 </div>

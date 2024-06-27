@@ -75,4 +75,10 @@
   .sectionData .about_sec_span {
    font-size: 2.95rem;
 }
- }
+}
+@media (max-width: 300px) {
+   .aboutList ul li {
+      font-size: 4rem;
+      margin-right: 0px;
+  }
+}

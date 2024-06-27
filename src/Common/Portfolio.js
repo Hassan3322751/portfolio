@@ -7,6 +7,7 @@ import '../CSS/Main.css'
 import '../CSS/Common.css'
 import '../CSS/Portfolio.css'
 import '../CSS/Responsive.css'
+import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
     const tabsData = [
@@ -53,7 +54,9 @@ const Portfolio = () => {
                     </span>
 
                     <div className="btnGroup">
+                      <Link to='/contact'>
                         <button className="btn1">Contact Us</button>
+                      </Link>
                     </div>
                 </div>
 
@@ -78,7 +81,9 @@ const constIdea = () => {
                     We <span className='red'>Construct</span> Ideas
                 </span>
                 <div className="btnGroup">
+                  <Link to='/contact'>
                     <button className="btn1" style={{width: '34.5rem'}}>Let’s Talk About Your Project</button>
+                  </Link>
                 </div>
             </div>
 

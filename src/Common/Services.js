@@ -6,6 +6,7 @@ import '../CSS/Main.css'
 import '../CSS/Common.css'
 import '../CSS/Services.css'
 import '../CSS/Responsive.css'
+import { Link } from 'react-router-dom';
 
 const Services = () => {
   return (
@@ -25,7 +26,9 @@ const Services = () => {
 
                     <div className="btnGroup">
                         <button className="btn1">Free Quote</button>
-                        <button className="btn2">Contact Us</button>
+                        <Link to='/contact'>
+                            <button className="btn2">Contact Us</button>
+                        </Link>
                     </div>
                 </div>
 

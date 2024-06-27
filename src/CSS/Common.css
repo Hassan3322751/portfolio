@@ -4,13 +4,15 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
 html{
     /* font-size: 62.5%; */
     font-size: 49.5%;
 }
-body{
-    margin: 0px 10px;
+body:not([name="footerDiv"]){
+    margin: 0px 4.0rem;
 }
 .mtb0{
     margin-top: 0px;
@@ -27,43 +29,6 @@ body{
     border: 1px solid red;
 }
 
-/* Skew Image Style */
- /* .skewContainer{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    z-index: 0;
-    height: fit-content;
-}
-.skew{
-    position: absolute;
-    top: -30px;
-    left: 40px;
-    border: 1px solid white;
-    width: 323px;
-    height: 181px;
-    background: transparent;
-    transform: skewX(-20deg);
-}
-.skewImg{
-    width: max-content;
-    height: 260px;
-    transform: skewX(0deg);
-    background: none;
-    z-index: 0;
-}
-.skew1{
-    position: absolute;
-    bottom: -26px;
-    right: 40px;
-    width: 323px;
-    height: 181px;
-    background-color: #364854;
-    transform: skewX(-20deg);
-    z-index: -1;
-} */
-
-
 .skewContainer {
     display: flex;
     justify-content: center;
@@ -79,18 +44,12 @@ body{
     left: 4.0rem;
     width: 32.3rem;
     height: 18.1rem;
-    /* top: -30px;
-    left: 40px;
-    width: 323px;
-    height: 181px; */
     background: transparent;
     transform: skewX(-20deg);
   }
   
   .skewImg {
     width: 46rem;
-    /* width: 100%; */
-    /* height: 260px; */
     transform: skewX(0deg);
     background: none;
     z-index: 0;
@@ -102,54 +61,16 @@ body{
     right: 4.0rem;
     width: 32.3rem;
     height: 18.1rem;
-    /* bottom: -26px;
-    right: 40px;
-    width: 323px;
-    height: 181px; */
     background-color: #364854;
     transform: skewX(-20deg);
     z-index: -1;
   }
 
-  
-  /* @media (max-width: 1200px) {
-    .skew {
-      width: 250px;
-      height: 140px;
-    }
-    .skewImg {
-      height: 200px;
-    }
-    .skew1 {
-      width: 250px;
-      height: 140px;
-    }
+  @media (max-width: 300px) {
+    .skew{
+      left: 11rem;
   }
-  
-  @media (max-width: 900px) {
-    .skew {
-      width: 180px;
-      height: 100px;
-    }
-    .skewImg {
-      height: 150px;
-    }
-    .skew1 {
-      width: 180px;
-      height: 100px;
-    }
+  .skew1{
+      right: 11rem;
   }
-  
-  @media (max-width: 600px) {
-    .skew {
-      width: 120px;
-      height: 70px;
-    }
-    .skewImg {
-      height: 100px;
-    }
-    .skew1 {
-      width: 120px;
-      height: 70px;
-    }
-  } */
+  }

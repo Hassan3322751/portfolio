@@ -3,13 +3,14 @@ import '../CSS/Main.css'
 import '../CSS/Common.css'
 import '../CSS/About.css'
 import '../CSS/Responsive.css'
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
     <React.Fragment>
         <div className="section1 m-0 mt-5">
                 <div className="sectionData">
-                    <h1 style={{fontSize: '5.8rem', width: '35vw', marginTop: '0px'}} className="m-0">
+                    <h1 style={{fontSize: '5.8rem'}} className="m-0 full_width">
                         About<span className="red"> Us</span>
                     </h1>
                     <span className='about_first_span'>The Best SumizanWebs Technology with Five Years of Experience</span>
@@ -34,7 +35,7 @@ const About = () => {
 
         <div className="section1 m-0 mt-5">
                 <div className="sectionData">
-                    <h1 style={{fontSize: '5.8rem', marginTop: '0px'}} className="m-0">
+                    <h1 style={{fontSize: '5.8rem'}} className="m-0 full_width">
                         Rescue Your<span className="red"> Company's Growth</span>
                     </h1>
                     <span className='about_sec_span'>
@@ -42,7 +43,9 @@ const About = () => {
                     </span>
 
                     <div className="btnGroup mb-5">
-                        <button className="btn1">Hire a pro</button>
+                        <Link to='/contact'>
+                            <button className="btn1">Hire a pro</button>
+                        </Link>
                     </div>
                 </div>
             </div>
