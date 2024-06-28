@@ -32,29 +32,33 @@ const Contact = () => {
                 {/* </div>   */}
             </div>
 
-            <Form className='contactForm mt-5'>
-                <Row className="mb-3">
-                    <Form.Group as={Col} controlId="formGridEmail">
-                    <Form.Control type="email" placeholder="First Name" className='field'/>
+            <div className='form_div'>
+                <Form className='contactForm mt-5'>
+                    <Row className="mb-3">
+                        <Form.Group as={Col} controlId="formGridEmail">
+                        <Form.Control type="email" placeholder="First Name" className='field name'/>
+                        </Form.Group>
+
+                        <Form.Group as={Col} controlId="formGridPassword">
+                        <Form.Control type="password" placeholder="Last Name" className='field name' />
+                        </Form.Group>
+                    </Row>
+
+                    <Form.Group className="mb-3" controlId="formGridAddress1">
+                        <Form.Control placeholder="Email" className='field' />
                     </Form.Group>
 
-                    <Form.Group as={Col} controlId="formGridPassword">
-                    <Form.Control type="password" placeholder="Last Name" className='field' />
+                    <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                        <Form.Control as="textarea" placeholder='Messaeg' rows={3} className='field textArea'/>
                     </Form.Group>
-                </Row>
 
-                <Form.Group className="mb-3" controlId="formGridAddress1">
-                    <Form.Control placeholder="Email" className='field' />
-                </Form.Group>
-
-                <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                    <Form.Control as="textarea" placeholder='Messaeg' rows={3} className='field textArea'/>
-                </Form.Group>
-
-                <Button variant="primary" type="submit">
-                    Submit
-                </Button>
-            </Form>
+                    <Form.Group className='sub_btn_div'>
+                    <Button variant="primary" type="submit" className='sub_btn'>
+                        Send Message
+                    </Button>
+                    </Form.Group>
+                </Form>
+            </div>
 
             <div className="section1 mt-5">
                 <div className="sectionData">

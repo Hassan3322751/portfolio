@@ -1,14 +1,39 @@
-.contactForm{
-    display: grid;
+.form_div{
+    width: 100%;
+    display: flex;
     justify-content: center;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+.contactForm{
+    width: 50%;
+}
+.sub_btn_div{
+    display: flex;
+    justify-content: center;
+}
+.contactForm .sub_btn{
+    background-color: #FF4137;
+    border-color: #FF4137;
+    display: block;
+    border-radius: 2rem;
+    padding: .5rem 1.5rem;
+    font-size: 1.5rem;
 }
 .contactForm .field{
     background: transparent;
-    border-radius: 24px;
+    border-radius: 2.4rem;
     color: white;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    border-color: rgb(148, 147, 147);
+}
+.contactForm .field:not(.name){
+    margin: 3rem 0rem;
 }
 .contactForm .textArea{
-    height: 190px;
+    padding: 1rem;
+    height: 19rem;
 }
 .contactForm .field::placeholder
 {

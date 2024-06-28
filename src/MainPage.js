@@ -218,7 +218,7 @@ const MainPage = ()=>{
                         </ul>
                     </div>
                     <div className="btnGroup">
-                        <button className="btn1" style={{marginTop: '30px'}}>More Details</button>
+                        <button className="btn1">More Details</button>
                     </div>
                 </div>
 

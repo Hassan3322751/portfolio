@@ -58,7 +58,7 @@ const Services = () => {
                     At SumizanWebs, we've got you covered for all your software needs in one place. With top-notch technical skills and a can-do attitude, we're here to make your vision a reality. Our team includes experts in design, development, testing, and promotion, ensuring you get the best service possible.
                     </span>
                     <br/>
-                    <img src={images.more} />
+                    <img src={images.more} style={{marginTop: '2rem'}} />
                 </div>
                 <div>
                     <LazyLoad>
@@ -75,7 +75,7 @@ const Services = () => {
                     We supercharge your company with versatile iOS and Android apps. From creating simple to intricate mobile applications, we've got you covered from start to finish: designing, building, launching, and promoting your app. Our team collaborates closely with you to bring your ideas to life, ensuring your project is a success.
                     </span>
                     <br/>
-                    <img src={images.more} />
+                    <img src={images.more} style={{marginTop: '2rem'}} />
                 </div>
                 <div>
                     <LazyLoad>
@@ -92,7 +92,7 @@ const Services = () => {
                     At SumizanWebs Technology, we create attractive UI/UX designs that make it easy for users to navigate. Our designs combine good looks with practicality, making websites, apps, and computer programs better for people to use.
                     </span>
                     <br/>
-                    <img src={images.more} />
+                    <img src={images.more} style={{marginTop: '2rem'}} />
                 </div>
                 <div>
                     <LazyLoad>
@@ -110,7 +110,7 @@ const Services = () => {
                     We specialize in providing cutting-edge DevOps solutions tailored to optimize your website's performance and reliability. Our team offers expertise in leveraging leading cloud platforms such as AWS, GCP, and Azure, along with advanced tools like Kubernetes and Terraform, to streamline your development pipelines and automate infrastructure management. With a focus on efficiency and scalability, we empower your business to deliver high-quality software faster and more reliably than ever before.
                     </span>
                     <br/>
-                    <img src={images.more} />
+                    <img src={images.more} style={{marginTop: '2rem'}} />
                 </div>
                 <div>
                     <LazyLoad>

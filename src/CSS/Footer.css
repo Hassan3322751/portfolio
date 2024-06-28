@@ -22,6 +22,8 @@
     height: 6.8rem;
 }
 .footerCard2{
+    box-sizing: border-box;
+    padding: auto 5rem;
     margin-left: 1rem;
     width: 68vw;
     display: flex;

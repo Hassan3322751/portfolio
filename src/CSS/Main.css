@@ -45,7 +45,7 @@
 .services .cus_card{
     display: flex;
     flex-direction: column;
-    border: 1px solid white;
+    border: 1px solid rgb(148, 147, 147);
     box-sizing: border-box;
     padding: 2.0rem;
     border-radius: 4.0rem;
@@ -194,6 +194,7 @@
         padding: 1.5rem;
     }
     .section1 .list ul li{
+        margin: 2rem 0px;
         font-size: 2.78rem;
     }
   }
@@ -228,7 +229,7 @@
         margin: 5px 1rem;
     }
     .btnGroup .btn1, .btnGroup .btn2 {
-        margin: 5rem 1rem;
+        margin: 3rem 1rem;
     }
   }
   @media (max-width: 320px){

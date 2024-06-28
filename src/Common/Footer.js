@@ -22,39 +22,41 @@ const Footer = () => {
           <Container style={{background: 'transparent'}}>
             <Row className="justify-content-center">
               <Col className="footer_col">
-                <h3 className="text-white font-size-24 bg_red">Quick Links</h3>
+                <h3 className="text-white font-size-24 bg_red">Get in Touch</h3>
                 <ul className="list-unstyled bg_red">
-                  <li><Link href="#" className="text-white bg_red">Home</Link></li>
-                  <li><Link href="#" className="text-white bg_red">How It Works</Link></li>
-                  <li><Link href="#" className="text-white bg_red">Features</Link></li>
-                  <li><Link href="#" className="text-white bg_red">About Us</Link></li>
-                  <li><Link href="#" className="text-white bg_red">Contact</Link></li>
+                  <li><Link href="#" className="text-white bg_red">P.O. Box 11350 Alexandria,</Link></li>
+                  <li><Link href="#" className="text-white bg_red">VA, 22312</Link></li>
+                  <li><Link href="#" className="text-white bg_red">info@sumizanwebs.com</Link></li>
+                  <li><Link href="#" className="text-white bg_red">support@sumizanwebs.com</Link></li>
+                  <li><Link href="#" className="text-white bg_red">+1 347-350-0868</Link></li>
                 </ul>
               </Col>
               <Col className="footer_col">
                 <h3 className="text-white font-size-24 bg_red">Quick Links</h3>
                 <ul className="list-unstyled bg_red">
                 <li><Link href="#" className="text-white bg_red">Home</Link></li>
-                  <li><Link href="#" className="text-white bg_red">How It Works</Link></li>
-                  <li><Link href="#" className="text-white bg_red">Features</Link></li>
                   <li><Link href="#" className="text-white bg_red">About Us</Link></li>
-                  <li><Link href="#" className="text-white bg_red">Contact</Link></li>
+                  <li><Link href="#" className="text-white bg_red">Our Services</Link></li>
+                  <li><Link href="#" className="text-white bg_red">Contact Us</Link></li>
+                  <li><Link href="#" className="text-white bg_red">Terms and Conditions</Link></li>
+                  <li><Link href="#" className="text-white bg_red">Privacy Policy</Link></li>
                 </ul>
               </Col>
               <Col className='footer_col'>
-                <h3 className="text-white font-size-24 footer_col">Quick Links</h3>
+                <h3 className="text-white font-size-24 footer_col">Popular Links</h3>
                 <ul className="list-unstyled bg_red">
                 <li><Link href="#" className="text-white bg_red">Home</Link></li>
-                  <li><Link href="#" className="text-white bg_red">How It Works</Link></li>
-                  <li><Link href="#" className="text-white bg_red">Features</Link></li>
-                  <li><Link href="#" className="text-white bg_red">About Us</Link></li>
-                  <li><Link href="#" className="text-white bg_red">Contact</Link></li>
+                <li><Link href="#" className="text-white bg_red">About Us</Link></li>
+                  <li><Link href="#" className="text-white bg_red">Our Services</Link></li>
+                  <li><Link href="#" className="text-white bg_red">Contact Us</Link></li>
+                  <li><Link href="#" className="text-white bg_red">Terms and Conditions</Link></li>
+                  <li><Link href="#" className="text-white bg_red">Privacy Policy</Link></li>
                 </ul>
               </Col>
             </Row>
           </Container>
           <div className="text-center py-3 footer_copyright" style={{background: 'transparent'}}>
-            &copy; {new Date().getFullYear()} Portfolio
+            &copy; {new Date().getFullYear()} © <span style={{textDecoration: 'underline', background: 'transparent'}}>SumizanWebs</span>. All Rights Reserved.
           </div>
         </div>
       </div>

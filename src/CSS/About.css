@@ -33,7 +33,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    margin-right: 10px;
+    margin-right: 1.0rem;
  }
  .aboutList ul li:nth-child(5):before{
     content: '';
@@ -46,7 +46,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    margin-top: 30px;
+    margin-top: 3.0rem;
  }
 
  @media (max-width: 900px) {
@@ -60,6 +60,15 @@
    }
    .sectionData .about_sec_span {
       font-size: 2.7rem;
+  }
+  .aboutList ul{
+   width: 80vw;
+  }
+  .aboutList ul li::before, 
+  .aboutList ul li:nth-child(5):before {
+   top: 1.1rem;
+   width: 5rem;
+   height: 4rem;
   }
  }
 
@@ -79,6 +88,6 @@
 @media (max-width: 300px) {
    .aboutList ul li {
       font-size: 4rem;
-      margin-right: 0px;
+      margin-right: 10rem;
   }
 }
