@@ -11,10 +11,12 @@ html{
     /* font-size: 62.5%; */
     font-size: 49.5%;
 }
-body:not(.footerDiv){
-    /* margin: 0px 4.0rem; */
-    margin: 5.4rem 8rem 0rem 8rem
+.body_margin{
+    margin: 5.4rem 8rem 0rem 8rem;
 }
+/* body:not(.footerDiv){
+    margin: 5.4rem 8rem 0rem 8rem;
+} */
 .mtb0{
     margin-top: 0px;
     margin-bottom: 0px;

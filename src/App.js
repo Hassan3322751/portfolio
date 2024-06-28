@@ -1,5 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./CSS/Common.css"
 import Header from "./Common/Header";
 import Footer from "./Common/Footer";
 import MainPage from "./MainPage";
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+      <div className="body_margin">
         <Header/>
       <Routes>
           <Route path="/" element={<MainPage />} />
@@ -21,6 +23,7 @@ function App() {
           <Route path='/portfolio' element={<Portfolio />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
+      </div>
         <Footer/>
       </BrowserRouter>
     </>
