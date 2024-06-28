@@ -65,12 +65,3 @@ body:not([name="footerDiv"]){
     transform: skewX(-20deg);
     z-index: -1;
   }
-
-  @media (max-width: 300px) {
-    .skew{
-      left: 11rem;
-  }
-  .skew1{
-      right: 11rem;
-  }
-  }

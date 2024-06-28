@@ -5,11 +5,18 @@
     width: 30rem;
     margin-left: 20rem;
     margin-right: 20rem;
+    aspect-ratio: 3/2;
+    object-fit: contain;
 }
 
 @media  (max-width: 760px) {
     .services_img{
         margin-left: 10rem;
         margin-right: 10rem;
+    }
+}
+@media  (max-width: 480px) {
+    .section1 .sectionData img{
+        width: 17rem;
     }
 }

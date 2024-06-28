@@ -27,7 +27,7 @@
 }
 .btnGroup .btn2{
     border: 1px solid white;
-    margin-left: 10px;
+    margin-left: 1rem;
 }
 .btnGroup .btn2:hover{
     border: 1px solid rgb(240, 104, 97);
@@ -40,15 +40,15 @@
     display: flex;
     box-sizing: border-box;
     justify-content: space-around;
-    margin-top: 100px;
+    margin-top: 10.0rem;
 }
 .services .cus_card{
     display: flex;
     flex-direction: column;
     border: 1px solid white;
     box-sizing: border-box;
-    padding: 20px;
-    border-radius: 40px;
+    padding: 2.0rem;
+    border-radius: 4.0rem;
     margin: 0px 1.5rem;
 }
 .services .cus_card .img,
@@ -73,6 +73,13 @@
 .services .cus_card:nth-child(4) .cardHeading{
     color: white;
 }
+.services .lg_cus_card{
+    padding: 3rem;
+}
+.services .lg_cus_card img{
+    width: 12.3rem;
+    height: 12.3rem 
+}
 
 /*  */
 .section1 .list ul li{
@@ -86,7 +93,7 @@
     justify-content: space-between;
     align-items: center;
     width: 98vw;
-    padding-right: 50px;
+    padding-right: 5.0rem;
     box-sizing: border-box;
 }
 .coreTechs .data, .coreTechs .logoImg{
@@ -169,14 +176,6 @@
         padding: 20px;
         justify-content: center;
     }
-    .footer{
-        display: block;
-        width: 100%;
-    }
-    .footerCard1,
-    .footerCard2{
-        width: 100%;
-    }
   }
   @media (max-width: 650px) {
     .btnGroup .btn1,
@@ -192,7 +191,7 @@
         font-size: 2.49rem;
     }
     .services .cus_card{
-        padding: 15px;
+        padding: 1.5rem;
     }
     .section1 .list ul li{
         font-size: 2.78rem;
@@ -209,28 +208,65 @@
         margin: 5px 0px;
     }
   }
-  @media (max-width: 400px) {
+  @media (max-width: 480px){
     .brand{
         display: none;
+    }
+    .header ul {
+        display: flex;
+        margin-top: 0px;
+        padding-top: 2rem;
+    }
+    .header .menu{
+        display: flex;
+    }
+    .services .lg_cus_card .img {
+        width: 10rem;
+        height: 10rem;
+    }
+    .services .cus_card {
+        margin: 5px 1rem;
+    }
+    .btnGroup .btn1, .btnGroup .btn2 {
+        margin: 5rem 1rem;
     }
   }
-  @media (max-width: 300px){
-    .brand{
-        display: none;
-    }
+  @media (max-width: 320px){
     .btnGroup .btn1{
         margin-top: 20px;
     }
     .coreTechs{
         padding-right: 20px;
     }
-    .lg_cus_card{
-        padding: 18px;
+    .lg_cus_card .img {
+        width: 10rem;
+        height: 10rem;
+    }
+    .services .cus_card .img:not(.lg_cus_card .img) {
+        width: 5rem;
+        height: 5rem;
+    }
+    .services .lg_cus_card .cardHeading{
+        font-size: 1.6rem;
+    }
+    .services .lg_cus_card .cardText{
+        font-size: 1.25rem;
     }
     .lg_cus_card .cardText{
         font-size: 2.56rem;
     }
     .lg_cus_card .btn1{
         margin-top: 14px;
+    }
+    .services .cus_card {
+        margin: 5px 0.5rem;
+    }
+    .services .cus_card .cardHeading{
+        font-size: 2.3rem;
+        margin: 1rem 0px;
+    }
+    .services .cus_card .cardText{
+        font-size: 1.7rem;
+        margin: 0.8rem 0px;
     }
   }

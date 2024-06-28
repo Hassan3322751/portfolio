@@ -145,7 +145,7 @@ const MainPage = ()=>{
                 </div>
             </div>
 
-            <div className="sectionData" style={{marginTop:'50px'}}>
+            <div className="sectionData" style={{marginTop:'5.0rem'}}>
                 <h1 style={{fontSize: '5.8rem'}} className="m-0 full_width">
                     Expertise
                 </h1>
@@ -241,7 +241,7 @@ const MainPage = ()=>{
                             </span>
                         </div>
 
-                        <img src={images.simpleLogo}></img>
+                        <img src={images.simpleLogo} style={{marginRight: '10rem'}}></img>
                     </div>
 
                     <div className="servicesTabs">
@@ -260,18 +260,18 @@ const MainPage = ()=>{
                 </span>
 
                 <div className="services">
-                    <div className="cus_card lg_cus_card" style={{padding: '30px'}}>
-                        <img src={images.tickSearch} className="img" style={{width: '12.3rem', height: '12.3rem'}} />
+                    <div className="cus_card lg_cus_card">
+                        <img src={images.tickSearch} className="img"/>
                         <span className="cardHeading red">Web Development</span>
                         <span className="cardText">
                             By choosing, employing, and managing highly qualified software developers and IT specialists on a long-term basis, you may create your own team. In order to achieve agile software development, this approach is meant to assist you in locating and enlisting specialized personnel who possess the necessary skills and cultural fit.
                         </span>
                         <div className="btnGroup">
-                            <button className="btn1" style={{marginTop: '40px'}}>More Details</button>
+                            <button className="btn1">More Details</button>
                         </div>
                     </div>
-                    <div className="cus_card lg_cus_card" style={{padding: '30px'}}>
-                        <img src={images.coinsBag} className="img" style={{width: '12.3rem', height: '12.3rem'}} />
+                    <div className="cus_card lg_cus_card">
+                        <img src={images.coinsBag} className="img"/>
                         <span className="cardHeading red">UX/UI Design</span>
                         <span className="cardText">
                             The greatest software development professionals are available to you through our project-based approach, which is often offered at a fixed fee. With the aid of this approach, a customer and our IT experts working on a particular project should be able to communicate effectively and quickly.

@@ -11,13 +11,7 @@
 .headLinks .link{
     color: white;
 }
-.canvasLinks .link{
-    color: white;
-}
 .headLinks .link:hover{
-    color: red;
-}
-.canvasLinks .link:hover{
     color: red;
 }
 
@@ -27,34 +21,27 @@
     margin: 0px 10px;
     height: 18px;
     padding: 0rem 2rem;
-    font-size: 1.62rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.menu .search{
-    width: 22.84px;
-    height: 23.31px;
+.header ul li{
+    font-size: 2.3rem;
 }
-
+.menu .search,
 .menu .hamburg{
-    width: 24.31px;
-    height: 15.89px;
+    width: 3.3rem;
+    height: 3.3rem;
+    margin: 0rem 1rem;
 }
-.offcanvas{
-    max-width: 70%;
-}
-.offcanvas-header{
-    padding: 9px 6.5rem;
-}
-.offcanvas-title{
-    font-size: 2.99rem;
-}
-.offcanvas-body .canvasLinks{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.offcanvas-body ul li{
-    margin: 4px 10px;
-    height: 18px;
-    font-size: 2.52rem;
+@media (max-width: 480px) {
+    .header ul li {
+        padding: 0rem 1rem;
+        margin: 0px 0.6rem;
+        font-size: 4rem;
+    }
+    .menu .search, .menu .search,
+    .menu .search, .menu .hamburg{
+        width: 5.3rem;
+        height: 5.3rem;
+        margin: 0rem 2rem;
+    }
 }
