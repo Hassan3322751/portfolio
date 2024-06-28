@@ -14,7 +14,9 @@
 .headLinks .link:hover{
     color: #FF4137;
 }
-
+.header ul{
+    display: flex;
+}
 .header ul li{
     list-style: none;
     display: inline-flex;
@@ -30,7 +32,7 @@
 .menu .hamburg{
     width: 3.3rem;
     height: 3.3rem;
-    margin: 0rem 1rem;
+    margin: .5rem 1rem;
 }
 @media (max-width: 480px) {
     .header ul li {

@@ -3,6 +3,11 @@
       font-size: 50.5%;
   }
 }
+@media (max-width: 1299px) {
+  html{
+      font-size: 40.5%;
+  }
+}
   @media (max-width: 1099px) {
     html{
         font-size: 42.5%;

@@ -12,6 +12,7 @@ html{
     font-size: 49.5%;
 }
 .body_margin{
+    overflow-x: hidden;
     margin: 5.4rem 8rem 0rem 8rem;
 }
 /* body:not(.footerDiv){
