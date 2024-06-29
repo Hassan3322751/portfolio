@@ -14,8 +14,8 @@
     justify-content: space-around;
     margin-bottom: 20px;
     font-size: 1.6rem;
-    width: 77.0rem;
-    height: 7.0rem;
+    width: 90.0rem;
+    height: 9.0rem;
     border-radius: 35px;
   }
 
@@ -45,7 +45,7 @@
   }
   @media (max-width: 760px) {
     .tab-buttons {
-      width: 100rem;
+      width: 108rem;
       height: 8rem;
     }
     .tab-buttons button{

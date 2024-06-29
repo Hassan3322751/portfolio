@@ -6,7 +6,8 @@
 }
 .footerCard1{
     border: 1px solid white;
-    padding: 0px 2.0rem;
+    padding-right: 5rem;
+    padding-left: 7rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -23,7 +24,7 @@
 }
 .footerCard2{
     box-sizing: border-box;
-    padding: auto 5rem;
+    padding: 0rem 4rem;
     margin-left: 1rem;
     width: 68vw;
     display: flex;

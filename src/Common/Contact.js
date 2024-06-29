@@ -28,7 +28,7 @@ const Contact = () => {
                 </div>
 
                 {/* <div className="sectionGraphics"> */}
-                    <SkewImg image={images.skewImg1}/>
+                    <SkewImg image={images.contactSkew}/>
                 {/* </div>   */}
             </div>
 

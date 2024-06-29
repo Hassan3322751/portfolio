@@ -13,29 +13,29 @@ const Portfolio = () => {
     const tabsData = [
         {
             tabTitle: 'Web Development',
-            images:['../Images/webDev1.png', '../Images/webDev2.png', '../Images/webDev3.png',
-            '../Images/webDev4.png', 
+            images:['webDev1', 'webDev2', 'webDev3',
+            'webDev4', 
             ],
             width: '35vw',
           },
           {
             tabTitle: 'App Development',
-            images:['../Images/appDev1.png', '../Images/appDev2.png', '../Images/appDev3.png',
-            '../Images/appDev4.png'
+            images:['appDev1', 'appDev2', 'appDev3',
+            'appDev4'
             ],
             width: '35vw',
           },
           {
             tabTitle: 'UI/UX Design',
-            images:['../Images/uixu1.png', '../Images/uixu2.png', '../Images/uixu3.png',
-            '../Images/uixu4.png'
+            images:['uiux1', 'uiux2', 'uiux3',
+            'uiux4'
             ],
             width: '35vw',
           },
           {
             tabTitle: 'Devops Solutions',
-            images:['../Images/devSol1.png', '../Images/devSol2.png', '../Images/devSol3.png',
-            '../Images/devSol4.png'
+            images:['devSol1', 'devSol2', 'devSol3',
+            'devSol4'
             ],
             width: '35vw',
           },
@@ -60,7 +60,7 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-                <SkewImg image={images.skewImg1}/>
+                <SkewImg image={images.portfolioSkew}/>
             </div>
 
             <div className="servicesTabs">
@@ -89,7 +89,7 @@ const constIdea = () => {
 
             <div>
               <LazyLoad>
-                <img src={images.bulbs} className='porfolio_bulbs_img' style={{width: '40rem'}}/>
+                <img src={images.bulbs} className='porfolio_bulbs_img' style={{width: '40rem', marginRight:'10rem'}}/>
               </LazyLoad>
             </div>
         </div>

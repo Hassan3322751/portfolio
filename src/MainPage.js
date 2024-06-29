@@ -187,7 +187,7 @@ const MainPage = ()=>{
                     </div>
                 </div>
                         <div className="sectionGraphics">
-                            <SkewImg image={images.skewImg3}/>
+                            <SkewImg image={images.skewImg4}/>
                         </div>
             </div>
 
@@ -223,7 +223,7 @@ const MainPage = ()=>{
                 </div>
 
                 <div className="sectionGraphics">
-                    <SkewImg image={images.skewImg3}/>
+                    <SkewImg image={images.skewImg5}/>
                 </div>
             </div>
 
@@ -241,7 +241,7 @@ const MainPage = ()=>{
                             </span>
                         </div>
 
-                        <img src={images.simpleLogo} style={{marginRight: '10rem'}}></img>
+                        <img src={images.simpleLogo} style={{marginRight: '15rem'}}></img>
                     </div>
 
                     <div className="servicesTabs">
@@ -259,6 +259,7 @@ const MainPage = ()=>{
                     Based on the project needs and your company specifications
                 </span>
 
+            </div>
                 <div className="services">
                     <div className="cus_card lg_cus_card">
                         <img src={images.tickSearch} className="img"/>
@@ -281,7 +282,6 @@ const MainPage = ()=>{
                         </div>
                     </div>
                 </div>
-            </div>
 
         </React.Fragment>
     );

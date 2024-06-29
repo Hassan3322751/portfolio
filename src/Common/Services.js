@@ -32,7 +32,7 @@ const Services = () => {
                     </div>
                 </div>
 
-                <SkewImg image={images.skewImg1}/>
+                <SkewImg image={images.serviceSkew}/>
             </div>
 
         <div className="section1">

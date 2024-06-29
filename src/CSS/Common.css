@@ -36,6 +36,9 @@ html{
     position: relative;
     z-index: 0;
     height: fit-content;
+    box-sizing: border-box;
+    /* margin: 3rem 14rem 7rem; */
+    margin-right: 1rem;
   }
   
   .skew {
@@ -43,14 +46,17 @@ html{
     border: 1px solid white;
     top: -3.0rem;
     left: 4.0rem;
-    width: 32.3rem;
-    height: 18.1rem;
+    /* width: 32.3rem;
+    height: 18.1rem; */
+    width: 38.3rem;
+    height: 25.1rem;
     background: transparent;
     transform: skewX(-20deg);
   }
   
   .skewImg {
-    width: 46rem;
+    /* width: 46rem; */
+    width: 60rem;
     transform: skewX(0deg);
     background: none;
     z-index: 0;
@@ -60,8 +66,10 @@ html{
     position: absolute;
     bottom: -2.6rem;
     right: 4.0rem;
-    width: 32.3rem;
-    height: 18.1rem;
+    /* width: 32.3rem;
+    height: 18.1rem; */
+    width: 41.3rem;
+    height: 24.1rem;
     background-color: #364854;
     transform: skewX(-20deg);
     z-index: -1;
