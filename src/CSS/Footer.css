@@ -72,4 +72,10 @@
     .footerCard2{
         margin-left: 0px;
     } 
+    .footerCard2 ul li{
+        font-size: 1.98rem;
+    }
+    .footerCard2 h3{
+        font-size: 2.98rem;
+    }
 }

@@ -35,12 +35,12 @@ const Contact = () => {
             <div className='form_div'>
                 <Form className='contactForm mt-5'>
                     <Row className="mb-3">
-                        <Form.Group as={Col} controlId="formGridEmail">
-                        <Form.Control type="email" placeholder="First Name" className='field name'/>
+                        <Form.Group as={Col} controlId="formGridName">
+                        <Form.Control type="text" placeholder="First Name" className='field name'/>
                         </Form.Group>
 
-                        <Form.Group as={Col} controlId="formGridPassword">
-                        <Form.Control type="password" placeholder="Last Name" className='field name' />
+                        <Form.Group as={Col} controlId="formGridName">
+                        <Form.Control type="text" placeholder="Last Name" className='field name' />
                         </Form.Group>
                     </Row>
 
