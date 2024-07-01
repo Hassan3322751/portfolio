@@ -11,32 +11,46 @@ import { Link } from "react-router-dom";
 const MainPage = ()=>{
     const tabsData = [
         {
-            tabTitle: 'Frontend',
-            images:['../Images/simpleLogo.png', '../Images/simpleLogo.png', '../Images/simpleLogo.png',
-            '../Images/simpleLogo.png', '../Images/simpleLogo.png', '../Images/simpleLogo.png',
-            '../Images/simpleLogo.png', '../Images/simpleLogo.png', '../Images/simpleLogo.png',  
+            tabTitle: 'Mobile',
+            categories:['Native,', 'Cross Platform,', 'Android iOS,',
+            'Mobile Games Development',
             ],
-            width: '13rem',
+            width: '3.2rem',
+          },
+          {
+            tabTitle: 'Web',
+            categories:['React, ', 'php, ', 'Angular'],
+            width: '3.2rem',
           },
           {
             tabTitle: 'Backend',
-            images:['../Images/Logo.png', '../Images/Logo.png', '../Images/Logo.png'],
-            width: '13rem',
+            categories:['Node.js,', 'Php,', 'Django,', 'Elixir,', 'RoR,'],
+            width: '3.2rem',
           },
           {
-            tabTitle: 'Mobile',
-            images:['../Images/simpleLogo.png', '../Images/simpleLogo.png', '../Images/simpleLogo.png'],
-            width: '13rem',
+            tabTitle: 'Cloud',
+            categories:['AWS Azure & GCP,', 'SALESFORCE,', 'Terrraform,', 'k8s' , 'CloudOps,', 'cloud migration,', 'Bssiness Process Automation'],
+            width: '3.2rem',
           },
           {
-            tabTitle: 'Database',
-            images:['../Images/Logo.png', '../Images/Logo.png', '../Images/Logo.png'],
-            width: '13rem',
+            tabTitle: 'Artificial Intelligence',
+            categories:['Generative AI,', 'Machine Learning,', 'AR-VR,', ],
+            width: '3.2rem',
           },
           {
-            tabTitle: 'Full Stack',
-            images:['../Images/simpleLogo.png', '../Images/simpleLogo.png', '../Images/simpleLogo.png'],
-            width: '13rem',
+            tabTitle: 'MVP Development',
+            categories:['MVP for startups'],
+            width: '3.2rem',
+          },
+          {
+            tabTitle: 'Game Development',
+            categories:['2d, 3d Game', 'AR-VR Games'],
+            width: '3.2rem',
+          },
+          {
+            tabTitle: 'Staffing Solutions',
+            categories:['We offer IT staffing solutions to help you find the right talent for your organization. Our team of recruiters can help you find highly skilled IT professionals for full-time, part-time, or contract positions on fix or hourly rate.',],
+            width: '3.2rem',
           },
       ];
     return(
@@ -244,10 +258,10 @@ const MainPage = ()=>{
                         <img src={images.simpleLogo} style={{marginRight: '15rem'}}></img>
                     </div>
 
-                    <div className="servicesTabs">
-                        <Tab tabs={{tabsData}} />      
-                    </div>
                 </div>
+            </div>
+            <div className="servicesTabs">
+                <Tab tabs={{tabsData}} />      
             </div>
 
             <div className="sectionData">

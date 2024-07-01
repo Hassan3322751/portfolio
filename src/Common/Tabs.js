@@ -32,11 +32,11 @@ const Tab = ( {tabs} ) => {
         {constIdea && <div className="tabconstIdea">{constIdea()}</div>}
         
         <div className="tab-content">
-            {tabsData[activeTab].images.map((image, index) => (
-              
-              <LazyLoad>
-                <img key={index} src={images[image]} alt={tabsData[activeTab].tabTitle} style={{width: `${tabsData[activeTab].width}`}}/>
-              </LazyLoad>
+            {tabsData[activeTab].categories.map((category, index) => (
+              <span style={{fontSize: `${tabsData[activeTab].width}`, marginRight: '2rem'}}>{category}</span>
+              // <LazyLoad>
+              //   <img key={index} src={images[image]} alt={tabsData[activeTab].tabTitle} style={{width: `${tabsData[activeTab].width}`}}/>
+              // </LazyLoad>
             ))}
       </div>
       </div>

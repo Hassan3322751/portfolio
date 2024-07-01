@@ -14,7 +14,7 @@
     justify-content: space-around;
     margin-bottom: 20px;
     font-size: 1.6rem;
-    width: 90.0rem;
+    width: max-content;
     height: 9.0rem;
     border-radius: 35px;
   }
@@ -26,7 +26,7 @@
 
   .tab-content {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-wrap: wrap;
     padding: 20px;
   }
